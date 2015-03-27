@@ -1,0 +1,15 @@
+<div id="menu">
+  <div id="logo">
+    <a href="/">
+      <img src="/images/ricardogomez.gif" alt="Ricardo Gómez">
+    </a>
+  </div>
+  <ul id="sections">
+    <% SECTIONS = ['inicio', 'websamigas', 'conferencias', 'paraleer', 'mislibros', 'premios', 'biografia',
+    'encuentros', 'matematicas', 'contacto', 'elsahara'] %>
+    <% SECTIONS.each do |section| %>
+    <li><%= link_to section, "/#{section}" , :id => "section-#{section}",
+    :class => (section == section ? 'active' : '') %></li>
+    <% end %>
+  </ul>
+</div> <!-- menu -->

@@ -1,0 +1,49 @@
+{
+  "source": "../publicar/paginas",
+  "destination": "build",
+  "metadata": {
+    "title": "Ricardo Gómez",
+    "description": "Ricardo Gómez",
+    "secciones": ["inicio", "websamigas", "conferencias",
+      "paraleer", "mislibros", "premios", "biografia",
+      "encuentros", "matematicas", "contacto", "elsahara"]
+  },
+  "plugins": {
+    "./plugins/add-section": {
+    },
+    "metalsmith-word-count": {},
+    "metalsmith-markdown": {},
+    "./plugins/view-helpers": {
+
+    },
+    "metalsmith-permalinks": {
+    },
+    "metalsmith-partial": {
+      "directory": "./templates/partials",
+      "engine": "handlebars"
+    },
+    "metalsmith-templates": {
+      "directory": "templates",
+      "default": "page.html",
+      "engine": "handlebars"
+    },
+    "./plugins/concat-css": {
+      "source": "./stylesheets/",
+      "files": ["reset", "fonts", "page", "article"],
+      "output": "stylesheets/all.css"
+    },
+    "metalsmith-assets:1": {
+      "source": "./assets",
+      "destination": "."
+    },
+    "metalsmith-assets:2": {
+      "source": "../publicar/imagenes",
+      "destination": "./imagenes"
+    },
+    "./plugins/index-pages": {
+    },
+    "metalsmith-watch": {
+
+    }
+  }
+}

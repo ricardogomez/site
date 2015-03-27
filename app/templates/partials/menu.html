@@ -1,0 +1,14 @@
+<div id="menu">
+  <div id="logo">
+    <a href="/">
+      <img src="/images/ricardogomez.gif" alt="Ricardo Gómez">
+    </a>
+  </div>
+  <ul id="sections">
+    {{#each secciones}}
+      <li>
+        <a href="/{{this}}" id="section-{{this}}">{{this}}</a>
+      </li>
+    {{/each}}
+  </ul>
+</div> <!-- menu -->

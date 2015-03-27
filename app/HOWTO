@@ -1,0 +1,6 @@
+# START DEV SERVER
+node app/star
+
+# Import from older website
+
+ruby app/import/import.rb
