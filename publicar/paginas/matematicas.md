@@ -4,7 +4,7 @@ subtitulo: "Conferencias, textos y algunas cosas más. (No en vano, dediqué a s
 ---
 * * *
 
-![](/imagenes/matematicas/libreta-un-chico-diferente.jpg).
+{{ imágen matematicas/libreta-un-chico-diferente.jpg posición: ancho}}
 
 **Un chico diferente** es un libro recién publicado por Edelvives.
 
@@ -21,7 +21,7 @@ diferente**](http://www.ricardogomez.com/mislibros/unchicodiferente)
 
 * * *
 
-![](/imagenes/matematicas/libreta-problemitas.jpg).
+{{ imágen matematicas/libreta-problemitas.jpg }}.
 
 _Hace mucho tiempo (unos 30 años, todavía no habían llegado los ordenadores),
 proponía a mis alumnos problemas como el que aparece abajo. Aún los guardo y
@@ -38,11 +38,11 @@ Encontrarás varias decenas en el enlace que aparece abajo. )
 
 1.
 
-![](/imagenes/matematicas/escanear0002bpeq.jpg)
+{{ imágen matematicas/escanear0002bpeq.jpg posición: ancho }}
 
 2.
 
-![](/imagenes/matematicas/escanear0006bpeq.jpg)
+{{ imágen matematicas/escanear0006bpeq.jpg posición: ancho }}
 
 .
 
@@ -50,7 +50,7 @@ Encontrarás varias decenas en el enlace que aparece abajo. )
 
 * * *
 
-![](/imagenes/matematicas/libreta-conferencias.jpg)
+{{ imágen matematicas/libreta-conferencias.jpg posición: ancho }}
 
 .
 
@@ -101,7 +101,7 @@ Matemáticas…](/conferencias/literaturaymatematicas)
 
 * * *
 
-![](/imagenes/matematicas/libreta-textos-matematicos.jpg).
+{{ imágen matematicas/libreta-textos-matematicos.jpg posición: ancho }}.
 
 En algunos libros de divulgación, especialmente en los cuatro volúmenes de
 Textos divulgativos editados por **Anaya** aparecen algunos artículos sobre
@@ -122,4 +122,3 @@ matemáticas. He aquí algunos de ellos:
 [> El infinito](/matematicas/infinito)
 
 [> Superordenadores](/matematicas/superordenadores)
-

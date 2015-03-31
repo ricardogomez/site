@@ -1,2 +1,6 @@
+Convert images:
+!\[\]\(\/imagenes\/([^\)]+)\)
+{{ imágen $1 posición: ancho }}
+
 
 - Section active en el menú de la derecha

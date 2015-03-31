@@ -22,13 +22,6 @@ article h1, article h2, article h3, article h4 {
 }
 article h1 { font-size: 21px; line-height: 24px; margin: 2em 0 1em 0; }
 article h1:first-child { margin-top: 0; }
-article h1:before {
-  content: " ";
-  display: block;
-}
-article h1:before {
-  clear: both;
-}
 
 article p a:only-child {
   display: block;

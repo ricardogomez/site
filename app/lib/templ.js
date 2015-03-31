@@ -17,7 +17,7 @@ render.helpers = function(helpers, delegate) {
   return function(token) {
 
     var tokens = token
-      .split('&quot;')
+      .split('"')
       .map(function(x, i) {
         if (i % 2 === 1) { // in string
           return x.replace(/ /g, "!whitespace!");
@@ -29,7 +29,6 @@ render.helpers = function(helpers, delegate) {
       .map(function(x) {
          return x.replace(/!whitespace!/g, " ");
        });
-    console.log("TOKENS", tokens);
 
     var method = clean(tokens.shift());
     var value = tokens.shift();

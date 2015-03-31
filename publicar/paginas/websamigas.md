@@ -2,9 +2,10 @@
 titulo: "Para viajar a otros lugares..."
 subtitulo: ""
 ---
-{{ imágen websamigas/hoja.jpg posición: izq }}
 
-# **Primero, con los amigos:**
+# Primero, con los amigos:
+
+{{ imágen websamigas/hoja.jpg posición: izq }}
 
 **Gonzalo Moure** ha construido un precioso blog/web, en el que podrás leer
 sobre literatura y cosas que llegan al corazón (cosas del corazón, de
@@ -69,7 +70,6 @@ páginas interesantes, como _Guía de Letras_:
 **Primeras noticias de Literatura Infantil y Juvenil** se publica en papel y
 tiene acceso digital para suscriptores de la edición impresa:
 
->
 [comunicacionypedagogia.com](http://www.comunicacionypedagogia.com/publi/lite.htm)
 
 La revista **Babar** es una de las veteranas en formato electrónico. Contiene
@@ -89,7 +89,8 @@ y con la colaboración de maestros y lectores de sus Clubs de Lectura;
 publican los boletines “Calco” y “Estella lee”. A través de estas páginas web
 se pueden encontrar referencias de actividades y de críticas literarias:
 
-> [vamosaleerpampolona.com](http://www.vamosaleerpamplona.com/)>
+[vamosaleerpampolona.com](http://www.vamosaleerpamplona.com/)
+
 [pnte.cfnavarra.es](http://www.pnte.cfnavarra.es/caps/pamplona/es/foro/index.php?idf=7)
 
 **Letras libres** tiene un moderno diseño en su edición en papel; su versión

@@ -18,10 +18,11 @@ más sobre este conflicto, acercarte a su literatura o conocer algunos
 proyectos culturales en marcha puedes entrar en:
 
 > La actualidad del conflicto:>
-[poemariosahara.com](http://poemariosahara.blogspot.com)> Sus poetas y
-escritores:>
-[generacionamistadsaharaui.com](http://generaciondelaamistad.blogspot.com)>
-Un número especial de la revista electrónica **Ariadna** , monográfico sobre
+[poemariosahara.com](http://poemariosahara.blogspot.com)
+
+> Sus poetas y escritores:>
+[generacionamistadsaharaui.com](http://generaciondelaamistad.blogspot.com)
+> Un número especial de la revista electrónica **Ariadna** , monográfico sobre
 **La memoria y la cultura saharaui** :>
 [ariadna-rc.com](http://www.ariadna-rc.com/numero25/sahara/sahara.htm)>
 Página de la plataforma de Apoyo Político al Pueblo Saharaui:>
@@ -47,14 +48,14 @@ Ausserd. Y en próximos meses, esperamos llegar a Dajla, a El Aaiún…
 
 * * *
 
-**Invitación**
+## Invitación
 
 La biblioteca, los bibliobuses y el personal que trabaja en ellos se nutre a
 partir de pequeñas aportaciones económicas. Cualquier grano de arena llena el
 desierto. Si quieres colaborar, puedes hacerlo a través de la página
 **www.bubisher.com**. ¡Gracias!
 
-![](/imagenes/elsahara/publicidad-bubisher-peonza-v5b.jpg)
+{{ imágen elsahara/publicidad-bubisher-peonza-v5b.jpg posición: ancho }}
 
 * * *
 

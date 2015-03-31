@@ -37,6 +37,7 @@ function plugin() {
       if (!html(name)) return;
       var data = files[name];
       var template = data.contents.toString();
+      template = template.replace('&quot;', '"');
       data.contents = new Buffer(templ(template, ctx));
     });
     done();

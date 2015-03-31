@@ -4,7 +4,7 @@ subtitulo: "Presentación al trabajo realizado por Juana Portugal y Piedad Izqui
 ---
 * * *
 
-![](/imagenes/conferencias/plumapiedad.jpg)
+{{ imágen conferencias/plumapiedad.jpg posición: ancho }}
 
 **Una aclaración conveniente**
 
@@ -37,9 +37,9 @@ olvidarán.
 
 * * *
 
-![](/imagenes/conferencias/991plumapiedad.jpg)
+{{ imágen conferencias/991plumapiedad.jpg posición: ancho }}
 
-**Primera sorpresa: EL DESTINATARIO**
+# Primera sorpresa: EL DESTINATARIO
 
 Siempre se escribe en soledad, aunque acompañado de presencias. Quien escribe
 no puede sustraerse de la evocación de lecturas de su infancia, de su
@@ -172,7 +172,6 @@ por personas como Juana, que tienen un especial don.
 
 * * *
 
-![](/imagenes/conferencias/ojodenube-wordle.jpg)
+{{ imágen conferencias/ojodenube-wordle.jpg posición: ancho }}
 
 (Imagen en wordle realizada por los alumnos de Juana)
-
