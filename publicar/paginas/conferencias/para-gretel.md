@@ -174,7 +174,7 @@ y este calla. El lector tiene todo el derecho a rehacer, a imaginar la
 historia de otra forma distinta, y por supuesto a criticar. El autor solo
 hace una propuesta, la suya. El lector tiene derecho a recrear la historia.
 
-![](/imagenes/conferencias/escritora.jpg)
+{{ imágen conferencias/escritora.jpg posición: ancho }}
 
 **Escribir en el aula**
 

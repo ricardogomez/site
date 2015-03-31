@@ -60,6 +60,6 @@ ilustradores en una pared de la habitación en que trabajo. (¡Gracias, María!)
 Aquí, Erre, paseando por el bosque donde he situado esta historia, un bosque
 que conozco bien…
 
-![](/imagenes/mislibros/edelvives/caperucitaerre.jpg)
+{{ imágen mislibros/edelvives/caperucitaerre.jpg posición: ancho }}
 
 * * *

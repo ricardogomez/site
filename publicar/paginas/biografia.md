@@ -59,4 +59,4 @@ preguntas muy profesionales. Aquí aparece:
 Un día, no recuerdo dónde, encontré esto. ¡Me pareció un buen retrato y me
 encantó! Por suerte, la espiral ha crecido desde entonces.
 
-![](/imagenes/biografia/fotoparabio.jpg)
+{{ imágen biografia/fotoparabio.jpg posición: ancho }}

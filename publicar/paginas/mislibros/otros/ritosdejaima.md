@@ -88,7 +88,7 @@ cada piedra.
 
 _LIMAM BOISHA_
 
-![](/imagenes/mislibros/otros/websahara3b.jpg)
+{{ imágen mislibros/otros/websahara3b.jpg posición: ancho }}
 
 * * *
 
@@ -327,5 +327,5 @@ otra despedida.
 
 * * *
 
-![](/imagenes/mislibros/otros/web-sahara2b.jpg)
+{{ imágen mislibros/otros/web-sahara2b.jpg posición: ancho }}
 

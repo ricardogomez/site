@@ -106,7 +106,7 @@ idioma y la dictaba por teléfono. Pongamos por caso, se leía como
 «DAQ-LABA’NAATAN-DULUQ-CHEETAQ». Al otro lado del teléfono había otro indio
 dakota que escuchaba el mensaje y lo volvía a traducir al idioma original.
 
-![](/imagenes/matematicas/primos1.jpg)
+{{ imágen matematicas/primos1.jpg posición: ancho }}
 
 ¡Era asombrosamente simple! Ya no importaba que el enemigo escuchara los
 mensajes, porque solo un indio dakota podía descifrados. La ventaja del

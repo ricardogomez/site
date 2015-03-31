@@ -37,7 +37,7 @@ Discursivamente, Gómez se sitúa en la línea de los relatos publicados
 últimamente, y que hemos comentado en el blog, opta por una escritura que se
 complejiza y que alterna discursos diferentes. Adivina:
 
-![](/imagenes/paraleer/jij-gemma.png)
+{{ imágen paraleer/jij-gemma.png posición: ancho }}
 
 Y además, capítulos que narran hechos de espacios, personajes diferentes
 marcados por cambio de tipografía.

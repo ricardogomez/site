@@ -124,7 +124,7 @@ Algunos experimentos realizados con el reconocimiento de cifras no ofrecen
 resultados concluyentes y, en cualquier caso, están basados en un
 aprendizaje, igual que el que podamos realizar los humanos.
 
-![](/imagenes/matematicas/animales1.jpg)
+{{ imágen matematicas/animales1.jpg posición: ancho }}
 
 **Matemáticas en la naturaleza**
 

@@ -115,7 +115,7 @@ que mientras en el resto de materias la curva que relaciona
 avance/conocimiento práctico es creciente, en el caso de las Matemáticas esta
 curva es decreciente.
 
-![](/imagenes/conferencias/cuentas-estanquera2.jpg)
+{{ imágen conferencias/cuentas-estanquera2.jpg posición: ancho }}
 
 Nadie duda de que dominar las cuatro operaciones y unas nociones básicas de
 geometría son muy importantes en la vida cotidiana. La estanquera de mi
@@ -140,7 +140,7 @@ inventario. Como se ve, es muy útil que las cajeras del SuperSol sepan
 calcular, sobre todo si son fumadoras y quieren comprobar las cuentas que
 hace la estanquera.
 
-![](/imagenes/conferencias/factura-supersol2.jpg)
+{{ imágen conferencias/factura-supersol2.jpg posición: ancho }}
 
 Además, se dice, y es verdad, que los números están muy presentes en nuestra
 vida cotidiana. Dejando aparte que cantidades y operaciones son el soporte de
@@ -175,7 +175,7 @@ instantáneamente por una calculadora básica de un par de euros. Entonces,
 ¿para qué estudiar matemáticas y cada vez matemáticas más difíciles e
 inútiles?
 
-![](/imagenes/conferencias/numeros-marquesina.jpg)
+{{ imágen conferencias/numeros-marquesina.jpg posición: ancho }}
 
 Las sociedades modernas tienen a gala el deseo de alfabetizar a sus
 ciudadanos. Además de que a los gobiernos ni a los estados no les gusta que
@@ -294,7 +294,7 @@ desviación típica. Pero, ¿qué le queda como sedimento matemático a una
 persona al cabo de diez, doce años de estudio de matemáticas, cuando obtiene
 su título de Graduado en Secundaria?
 
-![](/imagenes/conferencias/mats-1.jpg)
+{{ imágen conferencias/mats-1.jpg posición: ancho }}
 
 Aunque admitamos que las matemáticas no hagan felices a la humanidad ni
 contribuyan a su progreso, lo cierto es que la historia de la matemática se
@@ -338,7 +338,7 @@ de la estadística, les pregunté si recordaban el nombre de algún matemático
 famoso. Solo después de un rato apareció el nombre de Pitágoras, y en cuanto
 al resto de respuestas, ya lo pueden imaginar.
 
-![](/imagenes/conferencias/billete-tren.jpg)
+{{ imágen conferencias/billete-tren.jpg posición: ancho }}
 
 Es probable que un electricista no tenga que saber de matemáticas más que lo
 necesario para hacer recuentos, realizar ciertas medidas y elaborar
@@ -409,7 +409,7 @@ ecuaciones de tercer grado, ni que Newton o Leibnitz se odiaran, ni que a
 Emmy Noether se le vetase su entrada en la universidad por el hecho de ser
 mujer, hace solo un siglo.
 
-![](/imagenes/conferencias/circo-13b.jpg)
+{{ imágen conferencias/circo-13b.jpg posición: ancho }}
 
 Bien pensado también, ciertas tareas matemáticas son una inutilidad. Salir de
 paseo y observar números en el entorno, para aprender a discriminar entre

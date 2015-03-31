@@ -50,7 +50,7 @@ miembros son también Luali Lahsan (reside en Alicante), Chejdan Mahmud Yazid
 (ahora en los campamentos), Saleh Abdalahi (en Mallorca), Mohamed Salem
 Abdelfatah, Ebnu (que reside en Uruguay)…
 
-![](/imagenes/paraleer/bahia.jpg)
+{{ imágen paraleer/bahia.jpg posición: ancho }}
 
 Estos escritores que avivan las letras “donde el cielo abraza la inmensidad
 de los desiertos”, escribe Awah, nacieron en su mayoría en el Sáhara
@@ -101,7 +101,7 @@ obras, en sus títulos: _Pasión de los olvidados_, _La música del siroco_
 enseñó en una tabla de madera_ (Bahia), _La arena de tus huellas_ (Saleh
 Abdalahi), _Voz de fuego_ y _Nómada en el exilio_ (Ebnu)…
 
-![](/imagenes/paraleer/sukeina.jpg)
+{{ imágen paraleer/sukeina.jpg posición: ancho }}
 
 Sukeina se crio en España. Sus referentes, dice, son mezcla. Pero de
 adolescente empezó a ir a los campamentos, supo de la leche de camella para
@@ -123,7 +123,7 @@ caer cuando la nombra… _Beduino en el Caribe_ titulará Iselmu su nueva obra.
 
 .
 
-![](/imagenes/paraleer/limam.jpg)
+{{ imágen paraleer/limam.jpg posición: ancho }}
 
 Boisha presenta ahora en gira su segundo libro, _Ritos de jaima_. Habla este
 hombre enjuto y amable como escribe, suavemente. ¿De qué se alimenta la

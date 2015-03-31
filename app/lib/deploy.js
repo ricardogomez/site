@@ -17,6 +17,7 @@ var rsync = Rsync.build({
     'destination': 'deployer@ricardogomez.com:/home/deployer/ricardogomez.com'
 });
 
+console.log("Execute");
 rsync.execute(function(error, code, cmd) {
   console.log("Rsync done", cmd, code, error);
 });

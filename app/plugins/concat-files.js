@@ -26,7 +26,7 @@ function plugin(options) {
       return bundle;
     });
 
-    async.map(bundles, buildBundle, function(err, results) {
+    async.mapSeries(bundles, buildBundle, function(err, results) {
       results.forEach(function(result) {
         files[result.file] = {
           contents: new Buffer(result.content)

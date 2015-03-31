@@ -20,7 +20,7 @@ con repetir lo que hacía durante la última semana: entrar casi con los ojos
 cerrados y contemplar el piso de la estrecha caja, o el techo, libres de su
 reflejo. Estaba harto de la insidiosa conspiración de los espejos.
 
-![](/imagenes/paraleer/p1000977d.jpg)
+{{ imágen paraleer/p1000977d.jpg posición: ancho }}
 
 Contempló con apatía el desorden del salón, tomó del escritorio su cartera y
 varios libros y entró en la cocina notando el hedor de los cacharros

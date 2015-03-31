@@ -7,26 +7,31 @@ var templ = require('../lib/templ');
 module.exports = plugin;
 
 var helpers = {};
-helpers.imagen = function(path, options) {
-  var url = "/imagenes/" + path;
-  var texto = options['texto'];
-  var pos = "image-helper-position-" + options['posicion'];
 
-  return h('img', { "src": url, "alt": texto, "class": pos})
+// IMAGEN path posición: cen | izq | der texto: cosas
+helpers.imagen = function(cmd) {
+  var url = "/imagenes/" + cmd.value();
+  var texto = cmd.options('texto');
+  var pos = cmd.options('pos', 'posición', 'posicion');
+
+  return h('img', { "src": url, "alt": texto,
+    "class": "image-helper-position-" + pos})
 }
-helpers.libro = function(title, options) {
-  var url = "/mislibros/" + options['pagina'];
-  var thumb = "/imagenes/mislibros/" + options['imagen'];
+
+// LIBRO imágen: ... página: ...
+helpers.libro = function(cmd) {
+  var title = cmd.value();
+  var url = "/mislibros/" + cmd.options('pagina', 'página');
+  var thumb = "/imagenes/mislibros/" + cmd.options('imagen', 'imágen');
 
   return h('a', {href: url, }, [
     h('img', {"src": thumb, "alt": title, "class": "book"})
   ]);
 }
-helpers.salto = function() {
+helpers.salto = function(cmd) {
   return h('div', {"class": "clearfix"})
 }
 
-// IMAGEN path posición: cen | izq | der texto: cosas
 var ctx = templ.helpers(helpers, function(path, options, complete) {
   return h('p', {style: 'border: 1px solid red;'}, complete)
 });
@@ -37,7 +42,7 @@ function plugin() {
       if (!html(name)) return;
       var data = files[name];
       var template = data.contents.toString();
-      template = template.replace('&quot;', '"');
+      template = template.replace(/&quot;/g, '"');
       data.contents = new Buffer(templ(template, ctx));
     });
     done();

@@ -19,31 +19,29 @@ describe('Templ', function() {
   describe('Helper functions', function() {
     it("helper function has a value", function() {
       var ctx = templ.helpers({
-        "one": function(value) { return value; }
+        "one": function(cmd) { return cmd.value(); }
       });
       expect(templ("{{ one   Value }}", ctx)).toEqual('Value');
     });
     it("options can have quotes", function() {
       var ctx = templ.helpers({
-        "print": function(value) { return value; }
+        "print": function(cmd) { return cmd.value(); }
       });
       expect(templ('{{ print "This is awe" }}', ctx)).toEqual("This is awe");
     })
 
-    it("helper function has options", function() {
+    it("helper cmd has options", function() {
       var ctx = templ.helpers({
-        "play": function(value, options) { return options['num']; }
+        "play": function(cmd) { return cmd.options('number'); }
       });
-      expect(templ("{{ play one num: 1 }}", ctx)).toEqual('1');
+      expect(templ("{{ play one number: 1 }}", ctx)).toEqual('1');
     });
 
-    it("helper options are cleaned", function() {
+    it("helper cmd options can have alias", function() {
       var ctx = templ.helpers({
-        "imagen": function(path, options) {
-          return options['posicion'];
-        }
+        "play": function(cmd) { return cmd.options('number', 'num'); }
       });
-      expect(templ("{{Imágen path posición: 2}}", ctx)).toEqual('2');
+      expect(templ("{{ play one num: 1 }}", ctx)).toEqual('1');
     });
   });
 })

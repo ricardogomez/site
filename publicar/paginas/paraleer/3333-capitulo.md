@@ -70,7 +70,7 @@ este libro._
 
 * * *
 
-![](/imagenes/paraleer/3333eva.jpg)
+{{ imágen paraleer/3333eva.jpg posición: ancho }}
 
 **2: OTRO DÍA ABURRIDO**
 

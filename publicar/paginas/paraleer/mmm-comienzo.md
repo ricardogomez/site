@@ -164,7 +164,7 @@ Nunca sospeché que aquella carpeta daría lugar a esta historia.
 
 - \* \*
 
-![](/imagenes/paraleer/postal1-peq-thumb.jpg)
+{{ imágen paraleer/postal1-peq-thumb.jpg posición: ancho }}
 
 Se trataba de un poema, sí, y no estaba firmado. Lo encontrarán íntegro a
 partir de la página 43. Lo he trascrito entero, aunque confieso que he hecho

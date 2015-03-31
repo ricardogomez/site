@@ -125,7 +125,7 @@ jóvenes y para adultos en mi haber, me alegro de haber dado este paso.
 Escribir me está deparando satisfacciones que ni siquiera imaginaba hace una
 década.
 
-![](/imagenes/conferencias/img-7778.jpg)
+{{ imágen conferencias/img-7778.jpg posición: ancho }}
 
 **El contexto** Aunque he disfrutado de amigos que han leído tanto o más que
 yo, ninguno de ellos pertenecía hace una década a nada parecido a un ambiente
@@ -173,7 +173,7 @@ la Andrea de mi última novela, _El dulce olor del diablo_, que en otros más
 alejados como la Fairuz de _El perro de Goya en Beirut_. Una de las ventajas
 de la imaginación es no tener que circunscribirse a lo cotidiano.
 
-![](/imagenes/conferencias/p1010126.jpg)
+{{ imágen conferencias/p1010126.jpg posición: ancho }}
 
 **El contenido** Casi ninguna de mis novelas nace estrictamente de una
 historia que haya imaginado o que me hayan contado. Creo que hay una
@@ -210,7 +210,7 @@ niña que baja de un autobús con el rostro cansado y la mirada extraviada,
 despierta mi imaginación lo bastante como para decidirme a dedicar varios
 meses de vida a imaginar su vida y escribir sobre ella.
 
-![](/imagenes/conferencias/hoja.jpg)
+{{ imágen conferencias/hoja.jpg posición: ancho }}
 
 **El estilo** Sin embargo, los personajes y la historia que subyace son
 todavía suficientes para comenzar a escribir una historia o no dejar de

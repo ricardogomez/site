@@ -43,7 +43,7 @@ príncipe para que el ministro se quedase con el reino. Aunque hasta entonces
 el rey no había sospechado de su ministro, a partir de ese momento le entró
 una gran desconfianza.
 
-![](/imagenes/paraleer/lucanor0001-peq.jpg)
+{{ imágen paraleer/lucanor0001-peq.jpg posición: ancho }}
 
 »Y como el hombre prudente no debe esperar, sino prevenir los
 acontecimientos, un día el rey se encontró con su ministro y le dio a
@@ -86,7 +86,7 @@ enemigos para probarle y desprestigiarle. Y, oyéndole, el ministro vio que
 quizá era como el filósofo le decía. Y el sabio le aconsejó el modo de
 esquivar el peligro en que se había metido.
 
-![](/imagenes/paraleer/lucanor0002-peq.jpg)
+{{ imágen paraleer/lucanor0002-peq.jpg posición: ancho }}
 
 »Esa misma noche, el ministro se hizo rapar la cabeza y las barbas, se puso
 un vestido andrajoso y unos zapatos rotos. Metió en su traje una gran
@@ -116,7 +116,7 @@ Cuando acabó de contar este cuento, el conde Lucanor se quedó pensativo.
 Patronio trató de que el joven extrajese conclusiones de la historia que
 había escuchado. El consejero siguió argumentando:
 
-![](/imagenes/paraleer/lucanor0004-peq.jpg)
+{{ imágen paraleer/lucanor0004-peq.jpg posición: ancho }}
 
 –A vos, señor, también os conviene no ser engañado por el que dice ser
 vuestro amigo; yo también creo que lo que os dijo no tiene otro fin que

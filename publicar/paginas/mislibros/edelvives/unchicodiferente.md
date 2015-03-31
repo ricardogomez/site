@@ -34,65 +34,65 @@ Si quieres leer los primeros capítulos…
 
 * * *
 
-![](/imagenes/mislibros/edelvives/chico-otras-cosas2.jpg)
+{{ imágen mislibros/edelvives/chico-otras-cosas2.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-factoriales.jpg)
+{{ imágen mislibros/edelvives/chico-factoriales.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-calculadora-bestial.jpg)
+{{ imágen mislibros/edelvives/chico-calculadora-bestial.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-simetrias.jpg)
+{{ imágen mislibros/edelvives/chico-simetrias.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-montanas.jpg)
+{{ imágen mislibros/edelvives/chico-montanas.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-1089.jpg)
+{{ imágen mislibros/edelvives/chico-1089.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-complicado.jpg)
+{{ imágen mislibros/edelvives/chico-complicado.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-sera-verdad.jpg)
+{{ imágen mislibros/edelvives/chico-sera-verdad.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-sellos.jpg)
+{{ imágen mislibros/edelvives/chico-sellos.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-piramide.jpg)
+{{ imágen mislibros/edelvives/chico-piramide.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-dinero-tonto.jpg)
+{{ imágen mislibros/edelvives/chico-dinero-tonto.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-periodos.jpg)
+{{ imágen mislibros/edelvives/chico-periodos.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-chiste-binario.jpg)
+{{ imágen mislibros/edelvives/chico-chiste-binario.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-numeros-amigos.jpg)
+{{ imágen mislibros/edelvives/chico-numeros-amigos.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-capicuas.jpg)
+{{ imágen mislibros/edelvives/chico-capicuas.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-luna-cocina.jpg)
+{{ imágen mislibros/edelvives/chico-luna-cocina.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-estrellas-pentagonales.jpg)
+{{ imágen mislibros/edelvives/chico-estrellas-pentagonales.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-cual-es-mayor.jpg)
+{{ imágen mislibros/edelvives/chico-cual-es-mayor.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-pequeno-grande.jpg)
+{{ imágen mislibros/edelvives/chico-pequeno-grande.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-intrigas.jpg)
+{{ imágen mislibros/edelvives/chico-intrigas.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-cuadrados-orden3.jpg)
+{{ imágen mislibros/edelvives/chico-cuadrados-orden3.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-suelos.jpg)
+{{ imágen mislibros/edelvives/chico-suelos.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-limeriks.jpg)
+{{ imágen mislibros/edelvives/chico-limeriks.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/lunula.jpg)
+{{ imágen mislibros/edelvives/lunula.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/metro.jpg)
+{{ imágen mislibros/edelvives/metro.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/2525.jpg)
+{{ imágen mislibros/edelvives/2525.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/senora-fibonacci.jpg)
+{{ imágen mislibros/edelvives/senora-fibonacci.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/rectangulos.jpg)
+{{ imágen mislibros/edelvives/rectangulos.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/primoono.jpg)
+{{ imágen mislibros/edelvives/primoono.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/chico-poligonosymas.jpg)
+{{ imágen mislibros/edelvives/chico-poligonosymas.jpg posición: ancho }}
 
-![](/imagenes/mislibros/edelvives/delibros.jpg)
+{{ imágen mislibros/edelvives/delibros.jpg posición: ancho }}
 

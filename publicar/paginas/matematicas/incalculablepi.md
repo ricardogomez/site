@@ -134,7 +134,7 @@ Por ejemplo, Vieta descubrió que para obtener el valor de π utilizando un
 polígono de 1024 lados (que no es una circunferencia, pero se le aproxima
 bastante) hay que calcular el valor de:
 
-![](/imagenes/matematicas/pi1.jpg)
+{{ imágen matematicas/pi1.jpg posición: ancho }}
 
 Trabajar con raíces cuadradas no era un plato agradable, sobre todo teniendo
 en cuenta que entonces no había calculadoras, pero los matemáticos tuvieron
@@ -157,11 +157,11 @@ A partir de cierto momento se puso de moda buscar fórmulas para calcular π de
 maneras cada vez más sencillas, aunque eso supusiera hacer larguísimos
 cálculos.Así, en 1673, un tal Wallis encontró una fórmula elegante:
 
-![](/imagenes/matematicas/pi2.jpg)
+{{ imágen matematicas/pi2.jpg posición: ancho }}
 
 Leibniz otra:
 
-![](/imagenes/matematicas/pi3.jpg)
+{{ imágen matematicas/pi3.jpg posición: ancho }}
 
 Estas fórmulas eran fáciles de entender, pero aproximarse a π requería miles
 de cálculos durante miles y miles de horas robadas al sueño o a otras
@@ -285,7 +285,7 @@ algún buscador de internet.
 Existe un procedimiento curioso de calcular el valor de π con ayuda de un
 dardo, aunque requiere paciencia.
 
-![](/imagenes/matematicas/pi5.jpg)
+{{ imágen matematicas/pi5.jpg posición: ancho }}
 
 El asunto consiste en dibujar en una cartulina un cuadrado y su
 circunferencia inscrita y en disparar el dardo al azar, contando cuántas

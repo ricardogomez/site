@@ -2,11 +2,12 @@
 titulo: "Conferencias (y alguna que otra entrevista)"
 subtitulo: ""
 ---
-{{ imágen conferencias/paisaje.jpg posición: izq }} **Presentación en el
+{{ imágen conferencias/paisaje.jpg posición: ancho }}
+**Presentación en el
 Congreso Iberoamericano de las Lenguas en la Educación y en la Cultura. IV
 Congreso LEER.ES**
 
-![](/imagenes/conferencias/sept2012.jpg)
+{{ imágen conferencias/sept2012.jpg pos: izq }}
 
 La Asociación Española de Lectura y Escritura (AELE), con quien trabajé este
 curso, me pidió que hiciera de telonero-presentador de dos experiencias
@@ -22,7 +23,7 @@ lectores](/conferencias/congresoaele)
 
 **Charla en la Feria del Libro de Madrid: “¡Larga vida a los duendes!”**
 
-![](/imagenes/conferencias/mayo2012.jpg)
+{{ imágen conferencias/mayo2012.jpg pos: izq }}
 
 La Fundación MAPFRE me invitó a dar una charla en el marco de la Feria del
 Libro de Madrid. Por esas fechas habían muerto Sendak y Carlos Fuentes. Me
@@ -35,7 +36,7 @@ fantasía de los pequeños lectores.
 **Conferencia en Canadá: “Gastronomía y Literatura. El cuento: salir de
 tapas”**
 
- ![](/imagenes/conferencias/mayo2012.jpg)
+ {{ imágen conferencias/mayo2012.jpg pos: izq }}
 
 _Recibí una invitación para visitar Canadá, dar alguna conferencia y realizar
 encuentros en Montreal, Calgary y Edmonton. Fue una magnífica experiencia
@@ -58,7 +59,7 @@ tapas’](/conferencias/gastronomia)
 
 **“Entrevista en “Peonza”. nº 98. Octubre de 2011**
 
- ![](/imagenes/conferencias/oct2011.jpg)
+ {{ imágen conferencias/oct2011.jpg pos: izq }}
 
 _Una entrevista es una buena ocasión para reflexionar. José Luis Polanco,
 miembro de “Peonza”, me ofreció la oportunidad de hacerlo en uno de los
@@ -71,7 +72,7 @@ una selección bibliográfica._
 
 **“Leer, sentir escribir…”: Unas reflexiones para el portal GRETEL**
 
- ![](/imagenes/conferencias/jun2009.jpg)
+ {{ imágen conferencias/jun2009.jpg pos: izq }}
 
 _Por estas fechas, el conocido portal GRETEL se puso en contacto conmigo para
 animarme a participar como autor invitado al Máster en Libros y Literatura
@@ -86,7 +87,7 @@ magnífico dossier sobre mí y mi obra. ¡Todo un orgullo!_
 
 **“Desnumeralizar las Matemáticas”: Conferencia en Santiago de Compostela**
 
- ![](/imagenes/conferencias/mar2009.jpg)
+ {{ imágen conferencias/mar2009.jpg pos: izq }}
 
 _El profesor Rafael Pérez Gómez, del Departamento de Matemática Aplicada de
 la Universidad de Granada, quiso contar conmigo para unas jornadas
@@ -102,7 +103,7 @@ los terrenos educativos._
 
 **Feria del Libro del Aljarafe, Sevilla, con Carlo Frabetti**
 
- ![](/imagenes/conferencias/dic2008.jpg)
+ {{ imágen conferencias/dic2008.jpg pos: izq }}
 
 _A Sevilla nos fuimos Carlo y yo, invitados a la Feria del Libro de Aljarafe.
 Pese a la buena voluntad de los organizadores, las circunstancias se aliaron
@@ -120,7 +121,7 @@ reproduzco a continuación:_
 
 **Viaje a Miami con Agustín Fernández Paz**
 
- ![](/imagenes/conferencias/dic2008.jpg)
+ {{ imágen conferencias/dic2008.jpg pos: izq }}
 
 _La primera semana de diciembre fue invitado por la Dirección General del
 Libro y el Consulado Español en Miami a realizar encuentros con lectores en
@@ -137,7 +138,7 @@ reflexiones._
 
 **Homenaje a DARWISH en la Casa Árabe de Madrid**
 
- ![](/imagenes/conferencias/oct2008.jpg)
+ {{ imágen conferencias/oct2008.jpg pos: izq }}
 
 _El día 6 de octubre, y en sintonía con cerca de 40 ciudades en el mundo que
 organizaban celebraciones similares, se realizó en la Casa Árabe de Madrid un
@@ -154,7 +155,7 @@ Darwish y fue un placer volver a hacerlo._
 
 **VITORIA: Mi experiencia lectora / mis deseos como escritor**
 
- ![](/imagenes/conferencias/sept2008.jpg)
+ {{ imágen conferencias/sept2008.jpg pos: izq }}
 
 _El 30 de septiembre de 2008, mi amigo y colega Patxi Zubizarreta me invitó a
 asisir a Vitoria. Fue solo un día, pero denso: una pequeña conferencia sobre
@@ -176,7 +177,7 @@ Vitoria](/conferencias/entrevista-vitoria)
 **LITERATURA Y MATEMÁTICAS (Cuando dos y dos no son cuatro, sino una china
 gorda en el zapato)**
 
- ![](/imagenes/conferencias/sept2008.jpg)
+ {{ imágen conferencias/sept2008.jpg pos: izq }}
 _Los días 2 y 3 de septiembre de 2008 participé en las Jornadas de
 Bibliotecas del grupo **“Abanico”** , de **Fuenlabrada**. Me pidieron que
 desarrollara una charla-conferencia-coloquio relacionada con las matemáticas
@@ -194,7 +195,7 @@ lectores._
 **LITERATURA Y MATEMÁTICAS (Reivindicación de los aspectos más inútiles de
 las Matemáticas y aportaciones de la Literatura al cálculo infinitesimal)**
 
- ![](/imagenes/conferencias/mar2008.jpg)
+ {{ imágen conferencias/mar2008.jpg pos: izq }}
 _El 1 de marzo de 2008 fui invitado por la **Editorial Alfaguara** y por la
 **Sociedad de Profesores de Matemáticas de Cantabria** a pronunciar en la
 Facultad de Ciencias de Santander una conferencia sobre Literatura y
@@ -208,7 +209,7 @@ lectura y el aprendizaje de las matemáticas, a todos los niveles._
 
 **Sobre el Sáhara**
 
- ![](/imagenes/conferencias/dic2007.jpg)
+ {{ imágen conferencias/dic2007.jpg pos: izq }}
 _El 5 de diciembre de 2007 fui invitado por la Universidad Autónoma de Madrid
 a dar una charla dentro de un Curso de Cooperación que trataba sobre el
 Sáhara. Participaban jóvenes estudiantes universitarios ¡que nunca habían
@@ -223,7 +224,7 @@ Bachillerato…_
 
 **Sobre los encuentros con autor**
 
- ![](/imagenes/conferencias/oct2007.jpg)
+ {{ imágen conferencias/oct2007.jpg pos: izq }}
 _De vez en cuando, realizo “encuentros con autor” en colegios, institutos o
 bibliotecas. Me gustan. Me trasladan a mis tiempos de profesor pero, sobre
 todo, me permite hablar de literatura con jóvenes lectores, y esto me
@@ -241,7 +242,7 @@ autor!](/conferencias/encuentros-edelvives-baeza)
 
 **MEDELLÍN: “¡Miénteme!” (Una propuesta para la escritura en el aula)**
 
- ![](/imagenes/conferencias/oct2007.jpg)
+ {{ imágen conferencias/oct2007.jpg pos: izq }}
 _En octubre de 2007 fui invitado a ir a Medellín a Bogotá, por la **Fundación
 Jordi Sierra y Fabra** y por la **Editorial SM**. Fui allí con Carlo
 Frabetti, Gonzalo Moure, Alfredo Gómez Cerdá y Andreu Martín. El poeta y
@@ -259,7 +260,7 @@ ficción.** Pero, además, no quiero dejar de hablar de Medellín…_
 
 **¿Por qué se escribe?**
 
- ![](/imagenes/conferencias/mayo2007.jpg)
+ {{ imágen conferencias/mayo2007.jpg pos: izq }}
 _El 12 de mayo de 2007 fui invitado por SM a una mesa redonda con este
 título. Para mí, se trataba de una invitación de lujo. ¡Iba a estar con
 Alfredo Gómez Cerdá, con Jordi Sierra i Fabra y con Gonzalo Moure, hablando
@@ -276,7 +277,7 @@ que se acercan a la escritura, son estas…_
 
 **Sobre la “literatura comprometida”**
 
- ![](/imagenes/conferencias/abr2007.jpg)
+ {{ imágen conferencias/abr2007.jpg pos: izq }}
 _El año 2007, la revista_ **Peonza** _elaboró un número monográfico dedicado
 a la “literatura comprometida” una expresión que, como trato de justificar,
 no me entusiasma. Me honraron invitándome a escribir junto a otros colegas y
@@ -290,7 +291,7 @@ aparecido en Abril de 2007:_
 
 **Sobre los premios literarios**
 
- ![](/imagenes/conferencias/jun2006.jpg)
+ {{ imágen conferencias/jun2006.jpg pos: izq }}
 _En junio de 2006, tras recibir el premio El Barco de Vapor, las editoras de
 la revista **Primeras Noticias de Literatura Infantil** me pidieron que
 hiciera un texto introductorio para su número extraordinario dedicado a los
@@ -306,7 +307,7 @@ o menor medida, todos caemos._
 
 **Caminos hacia la lectura**
 
- ![](/imagenes/conferencias/mayo2005.jpg)
+ {{ imágen conferencias/mayo2005.jpg pos: izq }}
 _El 21 de mayo de 2005, mis amigas Carmen Carramiñana y Merche Caballud me
 invitaron a una mesa redonda para hablar de “los caminos hacia la lectura”.
 Se trataba de que un grupo de escritores reflexionase sobre qué camino
@@ -316,4 +317,3 @@ Como otras veces, esto me permitió realizar un ejercicio de introspección
 acerca de por qué se lee y por qué se escribe._
 
 [> Caminos hacia la lectura](/conferencias/caminos-lectura)
-

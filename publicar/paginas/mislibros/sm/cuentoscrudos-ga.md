@@ -22,7 +22,7 @@ protagonistas, el “yo” escondido en el corazón de mis personajes.
 
 Así, por ejemplo:
 
-![](/imagenes/mislibros/sm/perro-semihundido.jpg)
+{{ imágen mislibros/sm/perro-semihundido.jpg posición: ancho }}
 
 _El perro de Goya en Beirut_ surge hace algunos años, cuando la ciudad
 libanesa estaba siendo bombardeada por enésima vez en su historia. Por aquel
@@ -50,7 +50,7 @@ ilustrados. El cocodrilo es el símbolo de aquello que acaba por devorarnos, y
 que en ocasiones adquiere el inocente aspecto de un teléfono móvil, un coche
 o una tele de plasma…
 
-![](/imagenes/mislibros/sm/sokheurm-man1996-peq.jpg)
+{{ imágen mislibros/sm/sokheurm-man1996-peq.jpg posición: ancho }}
 
 _La ofrenda del señor Man_ surge de modo casi similar, pero esta vez de una
 de las fotografías de la exposición _Vidas minadas_ del admirado Gervasio
@@ -74,7 +74,7 @@ realidad. Para compensar, abajo se ve la foto de ese chico ya crecido, en
 sobre los _Cuentos crudos_, que hablan precisamente de personajes con vida y
 con esperanza pese a la aspereza cotidiana.
 
-![](/imagenes/mislibros/sm/sokheurm-man-2007.jpg)
+{{ imágen mislibros/sm/sokheurm-man-2007.jpg posición: ancho }}
 
 _El cuento de navidad de Julito Fierro_ parte, como digo, de una conversación
 con Augusta Cornejo, una peruana que en Miami, tomando unas _chelas_ nos

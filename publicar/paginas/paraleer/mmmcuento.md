@@ -19,7 +19,7 @@ Yo sigo, después de tantos años, orgulloso de esta primera Elena…
 
 * * *
 
-![](/imagenes/paraleer/mmm-fondo.jpg)
+{{ imágen paraleer/mmm-fondo.jpg posición: ancho }}
 
 CUANDO CANTARON LOS PRIMEROS GALLOS, Elena llevaba ya rato observando la
 lechosa claridad del alba, que se colaba en la habitación por las

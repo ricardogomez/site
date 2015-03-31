@@ -32,7 +32,7 @@ que dice:
 
 (...)
 
-![](/imagenes/mislibros/varios-y-colectivos/8-maneras-sm-c.jpg)
+{{ imágen mislibros/varios-y-colectivos/8-maneras-sm-c.jpg posición: ancho }}
 
 Jordi conocía muy bien la situación de la ciudad (Medellín). En 2001, un año
 después de conocernos, el autor visitó la ciudad como escritor invitado al

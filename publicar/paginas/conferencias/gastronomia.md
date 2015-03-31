@@ -374,7 +374,7 @@ servilleta al cuello y devoren los platos que les sirvamos, ordenados
 cronológicamente, o por género o por curriculum, dándonos al final las
 gracias por tan pantagruélica comida.
 
-![](/imagenes/conferencias/tapas3-peq.jpg)
+{{ imágen conferencias/tapas3-peq.jpg posición: ancho }}
 
 Quizá haya una solución, la tercera que antes anunciaba, que es salir de
 tapas. Algo que consiste en pasear por lugares emblemáticos de la ciudad
@@ -631,7 +631,7 @@ Muchas gracias, buen apetito y mejor conversación.
 
 * * *
 
-![](/imagenes/conferencias/tapas-b.jpg)
+{{ imágen conferencias/tapas-b.jpg posición: ancho }}
 
 **Procedencia**
 

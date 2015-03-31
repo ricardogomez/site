@@ -276,7 +276,7 @@ El perro que buscaba estrellas. Edelvives. Zaragoza, 2011.
 
 **BIOGRAFÍA**
 
-![](/imagenes/conferencias/autofoto.jpg)
+{{ imágen conferencias/autofoto.jpg posición: ancho }}
 
 Siempre hay un antes. Ahora, escribo. Llevo unos doce años dedicado a ello,
 tratando de publicar tanto en literatura infantil y juvenil como en adultos,

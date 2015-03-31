@@ -2,7 +2,7 @@
 titulo: "Cuentos, fragmentos de textos..."
 subtitulo: "Cuentos míos que están ya libres de derechos. Líneas que un día me asombraron a mí... y quizá te sorprendan a ti. (¡Envíame los tuyos, por favor!)."
 ---
-{{ imágen paraleer/separador-cuentos2.jpg posición: izq }}...
+{{ imágen paraleer/separador-cuentos2.jpg posición: ancho }}...
 
 Algunos de mis cuentos están recogidos en libros como **Tras el cristal** o
 **Cuentos crudos**. Otros han sido publicados en diferentes momentos y están
@@ -10,7 +10,7 @@ ya libres de derechos. Los ofrezco ahora juntos, y completos (a petición de
 algunos lectores). Añado, por aquello del reconocimiento por los premios, y
 no sin recato, algunos poemas:
 
-![](/imagenes/paraleer/web-leyendo2c.jpg)
+{{ imágen paraleer/web-leyendo2c.jpg posición: ancho }}
 
 [> ‘Los poemas de la
 arena’](http://www.ricardogomez.com/paraleer/arena-relato-fragmento)
@@ -41,7 +41,7 @@ relato)’](http://www.ricardogomez.com/paraleer/mmmcuento)
 
 .
 
-![](/imagenes/paraleer/separador-fragmentos2.jpg)
+{{ imágen paraleer/separador-fragmentos2.jpg posición: ancho }}
 
 ...
 
@@ -60,7 +60,7 @@ hierro candente chisporrotaban y despedían un color nauseabundo….”
 
 > **Cormac McCarthy: “Sutree”**
 
-![](/imagenes/paraleer/luna2.jpg)
+{{ imágen paraleer/luna2.jpg posición: izq }}
 
 #
 

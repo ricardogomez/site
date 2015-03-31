@@ -30,11 +30,11 @@
     "./plugins/concat-files": {
       "stylesheets/portada.css": {
         "base": "./stylesheets",
-        "files": ["portada.css"]
+        "files": ["portada.css", "sections.css"]
       },
       "stylesheets/all.css": {
         "base": "./stylesheets",
-        "files": ["reset.css", "fonts.css", "page.css", "article.css"]
+        "files": ["reset.css", "fonts.css", "sections.css", "page.css", "article.css"]
       }
     },
     "metalsmith-assets:1": {

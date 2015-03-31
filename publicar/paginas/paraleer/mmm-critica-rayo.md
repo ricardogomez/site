@@ -57,7 +57,7 @@ Ricardo Gómez: Mujer mirando al mar SM, 128 pàgines, 15’50 €
 
 * * *
 
-![](/imagenes/paraleer/contactos-poemas-viejos-2.jpg)
+{{ imágen paraleer/contactos-poemas-viejos-2.jpg posición: ancho }}
 
 **Lo que puede decirse (o no) de unos papeles viejos**
 

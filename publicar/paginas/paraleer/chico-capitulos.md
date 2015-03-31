@@ -4,7 +4,7 @@ subtitulo: "Editorial Edelvives. Ilustraciones de Jordi Vila Delclós y fotos m�
 ---
  **1. MI CUMPLEAÑOS**
 
-![](/imagenes/paraleer/img-2879.jpg)
+{{ imágen paraleer/img-2879.jpg posición: ancho }}
 
 Mi nombre es Samuel Relloso Pascual Govantes Valenzuela Peres Villamayor Sáez
 Rosales, aunque nadie lo utiliza completo.
@@ -41,7 +41,7 @@ mejor es cierto que es una buena idea escribir de vez en cuando.
 
 **2. YO**
 
-![](/imagenes/paraleer/img-2877.jpg)
+{{ imágen paraleer/img-2877.jpg posición: ancho }}
 
 Hace mucho, por lo menos 60 meses, yo creía que los mayores podían adivinar
 los pensamientos de los niños. Pensaba que cuando te decían “vamos a comer”
@@ -103,7 +103,7 @@ Ahora, necesito más esfuerzos para espantarlo.
 
 **2. EL CINE**
 
-![](/imagenes/paraleer/img-2874.jpg)
+{{ imágen paraleer/img-2874.jpg posición: ancho }}
 
 Me gusta mucho ir al cine. Esta tarde, mi padre fue temprano a comprar las
 entradas y, como hace poco fue mi cumpleaños, pidió la fila siete y los
@@ -144,7 +144,7 @@ alto.Por eso me pongo tapones en los oídos, para no oír nada.
 
 **9. EL CAJÓN DE LAS COSAS INTERESANTES**
 
-![](/imagenes/paraleer/img-2878.jpg)
+{{ imágen paraleer/img-2878.jpg posición: ancho }}
 
 En realidad, ya he llenado cajón y medio con cosas interesantes. Calculo que
 de seguir a este ritmo, cuando tenga 50 años habré llenado 18 cajones con

@@ -77,7 +77,7 @@ en ese tiempo la versión de _La Ilíada_, de Baricco, en la que el autor
 italiano se propone re-contar esa obra clásica desproveyéndola del papel
 jugado por los dioses, “como si fuera una historia humana”.
 
-![](/imagenes/mislibros/adaptaciones/vidasueño-1-peq.jpg)
+{{ imágen mislibros/adaptaciones/vidasueño-1-peq.jpg posición: ancho }}
 
 Decidí pues utilizar una técnica mixta, en la que se mezclasen la narración y
 la versificación. Reservé la primera para describir los movimientos

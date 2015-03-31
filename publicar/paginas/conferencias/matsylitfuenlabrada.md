@@ -290,7 +290,7 @@ estimulante que treinta sesiones dedicadas a aprender un algoritmo de cálculo
 que puede resolverse en un microsegundo utilizando una calculadora
 electrónica.
 
-![](/imagenes/conferencias/niño-observando.jpg)
+{{ imágen conferencias/niño-observando.jpg posición: ancho }}
 
 Muchos escolares actuales no tienen ocasión de detenerse nunca en el
 significado de ciertos conceptos matemáticos, ni en la dificultad histórica

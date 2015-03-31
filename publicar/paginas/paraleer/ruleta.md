@@ -91,7 +91,7 @@ ruleta rusa.
 
 # **Cómo y por qué escribí “Ruleta rusa”**
 
-![](/imagenes/paraleer/mano1.jpg)
+{{ imágen paraleer/mano1.jpg posición: ancho }}
 
 _Mi carrera literaria, si es que lo mío es una carrera literaria, comenzó con
 la escritura de cuentos. Ya había cumplido sobradamente los cuarenta, había

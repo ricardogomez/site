@@ -46,7 +46,7 @@ subtitulo: "Editorial Edelvives, 2010. Nº 77 de la Colección Ala Delta"
 
 Un chico enfadado
 
-![](/imagenes/paraleer/caperucita-erre-alex.jpg)
+{{ imágen paraleer/caperucita-erre-alex.jpg posición: ancho }}
 
 La casa en que comienza esta historia estaba medio envuelta en las sombras de
 árboles cercanos. Eran las ocho de la tarde en el bosque.
@@ -197,7 +197,7 @@ Eran, claramente, disparos de escopeta.
 
 Una gallina aterrorizada
 
-![](/imagenes/paraleer/caperucita-erre-abuela.jpg)
+{{ imágen paraleer/caperucita-erre-abuela.jpg posición: ancho }}
 
 ¡Disparos! Alex sabía que a esas horas los cazadores no solían andar
 disparando. Los sonidos venían de la montaña, cargados de ecos, pero no pudo

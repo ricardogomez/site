@@ -79,7 +79,7 @@ gula o la codicia incluso. ¿Te das cuenta de la cantidad de libros ya
 escritos? Después de tres mil años de literatura, ¿crees poder decir algo
 nuevo? ¿Y piensas acaso que lo has conseguido?
 
-![](/imagenes/paraleer/cara.jpg)
+{{ imágen paraleer/cara.jpg posición: ancho }}
 
 _Estaba claro que se trataba de un juicio. Sus palabras sonaban secas y
 hablaba rápido, como si desease acabar conmigo cuanto antes. Pero no había
@@ -296,7 +296,7 @@ venir aquí, pero ahora no sé siquiera cuál es mi situación. Tampoco sé por
 qué hablamos de todo esto. El canon, otro trabajo… ¿Qué tiene que ver esto
 con la literatura? ¿Y por qué estoy aquí?
 
-![](/imagenes/paraleer/carab.jpg)
+{{ imágen paraleer/carab.jpg posición: ancho }}
 
 _Mi interlocutor no respondió a ninguna de mis preguntas. Mientras tomaba
 notas sentí la garganta seca. Desconocía si en ese sitio, que no debía de ser
@@ -525,7 +525,7 @@ la va a publicar. Cuando la publica no sabe si va a gustar. Aunque guste, no
 sabe si va a vender. Y, pasado el tiempo, no sabe si aunque se venda va a
 seguir estando orgulloso de ella.
 
-![](/imagenes/paraleer/carac.jpg)
+{{ imágen paraleer/carac.jpg posición: ancho }}
 
 _Se produjo un largo silencio. Juan el apocalíptico tomó algunas notas y se
 me quedó mirando. Cruzó los dedos y puso los codos sobre la mesa. Pensé que

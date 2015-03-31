@@ -67,7 +67,7 @@ asunto está en la manera en que nosotros vemos el universo. Somos demasiado
 pequeños, demasiado torpes, para ver que el universo es ilimitado, pero no
 infinito.
 
-![](/imagenes/matematicas/infinito2.jpg)
+{{ imágen matematicas/infinito2.jpg posición: ancho }}
 
 Pensemos en un escarabajo parlanchín e inteligente que diera vueltas sobre
 una esfera rocosa tan grande como la Tierra. Comienza a caminar, a caminar y

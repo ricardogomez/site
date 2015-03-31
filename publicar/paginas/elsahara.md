@@ -31,7 +31,7 @@ Página de la plataforma de Apoyo Político al Pueblo Saharaui:>
 
 ¡Y un proyecto apasionante: **el Bubisher**!
 
-![](/imagenes/elsahara/bubisher-ni-a.jpg)
+{{ imágen elsahara/bubisher-ni-a.jpg posición: ancho }}
 
 El **BIBLIOBÚS SAHARAUI** , el **Bubisher** , fue presentado en sociedad en
 septiembre de 2008, lleva cuatro años rodando por el desierto cargado de
@@ -61,7 +61,7 @@ desierto. Si quieres colaborar, puedes hacerlo a través de la página
 
 **Ritos de jaima**
 
-![](/imagenes/elsahara/cub-ritosjaima-peq.jpg)
+{{ imágen elsahara/cub-ritosjaima-peq.jpg posición: ancho }}
 
 Con precisión de arquero, Limam Boisha rasga con sus versos la membrana del
 tiempo en “Ritos de jaima”.

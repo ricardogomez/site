@@ -49,7 +49,7 @@ ambos. _¡Saludos, David!_
 
 * * *
 
-![](/imagenes/mislibros/adaptaciones/ryj-pag1.jpg)
+{{ imágen mislibros/adaptaciones/ryj-pag1.jpg posición: ancho }}
 
 * * *
 

@@ -29,21 +29,21 @@ poco a poco se componía el libro.
 Para mostrar este trabajo de cocina, he aquí el guión de la página
 introductoria:
 
-![](/imagenes/paraleer/cocina-amadis1.jpg)
+{{ imágen paraleer/cocina-amadis1.jpg posición: ancho }}
 
 Y el de un fragmento de las siguientes páginas, con los dibujos y detalles
 correspondientes:
 
-![](/imagenes/paraleer/cocina-amadis2.jpg)
+{{ imágen paraleer/cocina-amadis2.jpg posición: ancho }}
 
 Esto es lo que Emma conseguía al final (quiero decir, después de ese largo
 proceso…)
 
-![](/imagenes/paraleer/cocina-amadis3.jpg)
+{{ imágen paraleer/cocina-amadis3.jpg posición: ancho }}
 
 Claro que, antes, había que pasar por aquí:
 
-![](/imagenes/paraleer/cocina-amadis4.jpg)
+{{ imágen paraleer/cocina-amadis4.jpg posición: ancho }}
 
 Total, que un gustazo ir viéndolo…
 

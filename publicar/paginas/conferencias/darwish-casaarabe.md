@@ -185,7 +185,7 @@ _Traducido por María Luisa Prieto._
 
 * * *
 
-![](/imagenes/conferencias/regalo-casaarabe.jpg)
+{{ imágen conferencias/regalo-casaarabe.jpg posición: ancho }}
 
 _Regalo de la Casa Árabe. Serigrafía “Mémoire”, por Amina Benbouchta. Año
 2007._

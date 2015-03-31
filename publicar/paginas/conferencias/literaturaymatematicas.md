@@ -8,7 +8,7 @@ Profesores de Matemáticas de Cantabria**._
 
 * * *
 
- ![](/imagenes/conferencias/sello-galois.jpeg)
+ {{ imágen conferencias/sello-galois.jpeg posición: ancho }}
 
 En la fría madrugada del 30 de mayo de 1832, un joven entra en un bosque de
 las afueras de París. Se ha levantado muy temprano a pesar de que la víspera
@@ -141,7 +141,7 @@ estudiar matemática aunque las matemáticas no tuvieran ninguna utilidad
 práctica, de la misma manera que no tiene utilidad extasiarse ante una
 pintura, una sonata o una escultura.
 
-![](/imagenes/conferencias/noria.jpg)
+{{ imágen conferencias/noria.jpg posición: ancho }}
 
 Quizá haya que pensar que la utilidad intrínseca de la matemática es también
 una soga que se ata a su cuello. En la escuela primaria, apenas los niños han

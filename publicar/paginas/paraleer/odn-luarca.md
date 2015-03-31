@@ -121,7 +121,7 @@ capítulos cada semana.
 
 # **Objetivos comunes**
 
-![](/imagenes/paraleer/odn-1.jpg)
+{{ imágen paraleer/odn-1.jpg posición: ancho }}
 
 ♦Acercamiento de jóvenes y mayores entre sí, potenciando al máximo las
 relaciones intergeneracionales, al tiempo que nos asomamos todos al panorama
@@ -201,7 +201,7 @@ teatralizada.
 
 # **Celebraciones colaterales**
 
-![](/imagenes/paraleer/odn-3.jpg)
+{{ imágen paraleer/odn-3.jpg posición: ancho }}
 
 El día 2 de febrero de 2008, los participantes del Taller de Animación a la
 Lectura del CSPM de Luarca se desplazaron hasta la vecina localidad de Tapia
@@ -239,7 +239,7 @@ vecinos.
 
 # **La Fiesta Crow**
 
-![](/imagenes/paraleer/odn-7.jpg)
+{{ imágen paraleer/odn-7.jpg posición: ancho }}
 
 El sábado 26 de abril de 2008 realizamos la presentación del PROYECTO
 INTERGENERACIONAL OJO DE NUBE a través de una Fiesta Crow que tuvo lugar en
@@ -386,7 +386,7 @@ razón de 2 horas por sesión).
 
 # **Localización**
 
-![](/imagenes/paraleer/odn-4.jpg)
+{{ imágen paraleer/odn-4.jpg posición: ancho }}
 
 Para los encuentros intergeneracionales contamos con el Taller 1 del Centro
 Social de Personas Mayores de Luarca y un aula de la Escuela de Barcia
@@ -449,7 +449,7 @@ con nosotros así lo merecía.
 
 # **Valoraciones de los participantes**
 
-![](/imagenes/paraleer/odn-9.jpg)
+{{ imágen paraleer/odn-9.jpg posición: ancho }}
 
 “Libro bueno. Lectura extraordinaria. Entramos todos: niños, profesores y
 nosotros. Cada uno tenía un personaje. Todos consideramos que era una idea
