@@ -31,12 +31,11 @@
       "stylesheets/portada.css": {
         "base": "./stylesheets",
         "files": ["portada.css"]
+      },
+      "stylesheets/all.css": {
+        "base": "./stylesheets",
+        "files": ["reset.css", "fonts.css", "page.css", "article.css"]
       }
-    },
-    "./plugins/concat-css": {
-      "source": "./stylesheets/",
-      "files": ["reset", "fonts", "page", "article"],
-      "output": "stylesheets/all.css"
     },
     "metalsmith-assets:1": {
       "source": "./assets",
