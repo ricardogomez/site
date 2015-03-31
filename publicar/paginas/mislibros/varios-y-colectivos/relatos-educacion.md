@@ -2,8 +2,9 @@
 titulo: "21 relatos por la educación"
 subtitulo: ""
 ---
-{{ imágen mislibros/varios-y-colectivos/relatos-educaci-n.jpg posición: izq
-}}Escritores como Carlo Frabetti, Gonzalo Moure, Ricardo Menéndez Salmón,
+{{ imágen mislibros/varios-y-colectivos/relatos-educación.jpg posición: izq
+}}
+Escritores como Carlo Frabetti, Gonzalo Moure, Ricardo Menéndez Salmón,
 Belén Gopegui, Ángeles González-Sinde, Care Santos, Agustín Fernández Paz,
 Ana Alcolea, Antonio Ventura, Joan Manuel Gisbert, Blanca Álvarez, Espido
 Freire, María Menéndez Ponte o Vicente Muñoz Puelles… e ilustradores como

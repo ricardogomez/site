@@ -2,7 +2,7 @@
 titulo: "Como la piel del caimán"
 subtitulo: ""
 ---
-{{ imágen mislibros/sm/caim-n-2.jpg posición: izq }} **Argumento:**
+{{ imágen mislibros/sm/caiman.jpg posición: izq }} **Argumento:**
 
 Rubén tiene problemas en casa y en el instituto. Su hermano está enganchado a
 las drogas y eso complica la vida familiar. Por otra parte, los matones del
@@ -33,4 +33,3 @@ profundizar en los recovecos del alma humana.
 Si quieres leer el primer capítulo:
 
 [> Leer capítulo 1](http:/paraleer/caiman-capitulo)
-

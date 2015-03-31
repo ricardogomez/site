@@ -58,9 +58,7 @@ function plugin() {
       data.contents = new Buffer(templ(template, function(token) {
         var cmd = parse(token);
         var helper = helpers[cmd.method];
-        helper = helper || function() {
-          return h('p', {"style": "border: 1px solid red;" }, token);
-        }
+        helper = helper || function() { return token; }
         return helper(cmd, files);
       }));
     });

@@ -2,7 +2,7 @@
 titulo: "La vida es sueño, de Calderón de la Barca"
 subtitulo: "Editorial SM, 2008. Ilustraciones de Federico Delicado"
 ---
-{{ imágen mislibros/adaptaciones/vida-sue-o-peq.jpg posición: izq }}
+{{ imágen mislibros/adaptaciones/vidasueño.jpg posición: izq }}
 
 # **Confesión**
 

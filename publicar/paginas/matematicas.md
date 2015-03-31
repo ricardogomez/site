@@ -21,7 +21,7 @@ diferente**](http://www.ricardogomez.com/mislibros/unchicodiferente)
 
 * * *
 
-{{ imágen matematicas/libreta-problemitas.jpg }}.
+{{ imágen matematicas/libreta-problemitas.jpg pos: ancho }}.
 
 _Hace mucho tiempo (unos 30 años, todavía no habían llegado los ordenadores),
 proponía a mis alumnos problemas como el que aparece abajo. Aún los guardo y

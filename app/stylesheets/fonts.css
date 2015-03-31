@@ -17,11 +17,16 @@ article { margin-right: 40px; }
 article h1, article h2, article h3, article h4 {
   margin: 0; padding: 0;
   font-weight: 400;
-  line-height: 1.2em;
+  line-height: 1.25em;
+  margin: 2em 0 0.5em 0;
   display: block;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  color: #904830;
 }
-article h1 { font-size: 21px; line-height: 24px; margin: 2em 0 1em 0; }
+article h1 { font-size: 32px; }
 article h1:first-child { margin-top: 0; }
+article h2 { font-size: 24px; }
+article h3 { font-size: 18px; }
 
 article p a:only-child {
   display: block;
@@ -48,14 +53,11 @@ strong {
   font-weight: bold;
 }
 
-h1, h3 {
-  padding: 6px 0 0 0;
-  color: #904830;
-}
-
 h1 {
-  font-size: 46px;
-  line-height: 60px;
+  font-size: 48px;
+  line-height: 1.05em;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  color: #904830;
 }
 
 h3 {

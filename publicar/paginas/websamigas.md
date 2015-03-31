@@ -49,7 +49,7 @@ sentimientos expresados con palabras, sonidos o imágenes… el blog de
 [http://garciateijeiro.blogspot.com.es/](http://garciateijeiro.blogspot.com.es/)
 * * *
 
-# **Y luego, a la Literatura:**
+# Y luego, a la Literatura:
 
 No todo está en la red. Pero aparte de las revistas literarias que todos
 conocemos, hay algunos accesos que me resultan interesantes:
