@@ -4,14 +4,18 @@ var options = require('./default-options');
 var express = require('express');
 var exphbs  = require('express-handlebars');
 var chalk = require('chalk');
+var path = require('path');
 
 
 var defaults = {
-  root: '.',
+  metalsmith: null,
+  // server port
   port: 4567
 }
 
 function start(options) {
+  var metalsmith = options.metalsmith;
+
   var app = express();
   var view = exphbs.create({
     defaultLayout: 'app',
@@ -26,20 +30,27 @@ function start(options) {
   app.set('views', './app/views')
   app.set('view engine', 'handlebars');
 
+  var readdir = require('recursive-readdir');
   app.get('/editar', function (req, res) {
-    res.render('editar');
+    var src = path.join(metalsmith.source(), '../imagenes');
+    var srcLen = src.length;
+    readdir(src, function (err, arr) {
+      var files = err ? [] : arr;
+      files = files.map(function(file) {
+        return { path: file.slice(srcLen, -1), file: file }
+      });
+      res.render('editar', { files: files});
+    });
   });
 
   app.get('/build', function(req, res) {
     console.log(chalk.blue("Re-construyendo la web..."));
-    options.build(function(err) {
-      if(err) throw(err);
-      console.log(chalk.blue("Listo."));
-      res.send("Listo.");
+    metalsmith.build(function(err) {
+      res.send(err ? "Error." : "Listo.");
     })
   });
 
-  app.use(express.static(options.root, { etag: false }));
+  app.use(express.static(metalsmith.destination(), { etag: false }));
 
   var server = app.listen(options.port, function () {
     var host = server.address().address

@@ -3,27 +3,21 @@
 var Metalsmith = require('./lib/metalsmith-cli.js');
 var chalk = require('chalk');
 
-console.log(chalk.green("Hola!"));
+console.log(chalk.green("Hola papá!"));
 var dir = __dirname;
 
-function build(done) {
-  var metalsmith = Metalsmith(dir);
-  console.log(chalk.yellow("Construyendo la web..."));
-  metalsmith.build(done);
-  return metalsmith.destination();
-}
+var metalsmith = Metalsmith(dir);
 
-var output = build(function(err) {
+metalsmith.build(function(err) {
   if (err) throw err;
-  console.log(chalk.blue("web en: " + output));
+  console.log(chalk.green("Web lista."));
 });
 
 if ("server") {
   console.log(chalk.yellow("Iniciando servidor..."));
   var server = require('./lib/server.js')
   server.start({
-    "build": build,
-    "root": output
+    "metalsmith": metalsmith,
   });
 }
 
