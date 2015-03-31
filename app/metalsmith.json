@@ -27,6 +27,12 @@
       "default": "page.html",
       "engine": "handlebars"
     },
+    "./plugins/concat-files": {
+      "stylesheets/portada.css": {
+        "base": "./stylesheets",
+        "files": ["portada.css"]
+      }
+    },
     "./plugins/concat-css": {
       "source": "./stylesheets/",
       "files": ["reset", "fonts", "page", "article"],

@@ -44,8 +44,6 @@ function builder(dir) {
         else if (exists(npm))           mod = require(npm);
         else                            mod = require(name);
 
-        console.log(name);
-
         metalsmith.use(mod(opts));
       } catch (e) {
         throw(e);
