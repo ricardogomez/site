@@ -47,6 +47,8 @@
     },
     "./plugins/index-pages": {
     },
+    "./plugins/redirects": {
+    },
     "metalsmith-watch": {
 
     }
