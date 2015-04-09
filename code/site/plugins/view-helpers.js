@@ -1,9 +1,9 @@
 'use strict'
 
 var extname = require('path').extname;
-var h = require('../lib/hyperscript');
-var templ = require('../lib/templ');
-var parse = require('../lib/token-parser')
+var h = require('./hyperscript');
+var templ = require('./templ');
+var parse = require('./token-parser')
 
 module.exports = plugin;
 

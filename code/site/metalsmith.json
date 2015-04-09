@@ -1,5 +1,5 @@
 {
-  "source": "../publicar/paginas",
+  "source": "../../publicar/paginas",
   "destination": "build",
   "metadata": {
     "title": "Ricardo Gómez",
@@ -42,7 +42,7 @@
       "destination": "."
     },
     "metalsmith-assets:2": {
-      "source": "../publicar/imagenes",
+      "source": "../../publicar/imagenes",
       "destination": "./imagenes"
     },
     "./plugins/index-pages": {

@@ -1,5 +1,5 @@
-node_modules
+code/node_modules
 .DS_Store
 publicar/imagenes
-app/import/0000/**
-app/build/**
+code/import/0000/**
+code/site/build/**

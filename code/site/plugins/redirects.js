@@ -1,6 +1,6 @@
 'use strict';
 
-var templ = require('../lib/templ');
+var templ = require('./templ');
 var fs = require('fs');
 
 module.exports = plugin;
