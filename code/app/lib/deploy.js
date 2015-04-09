@@ -1,23 +1,21 @@
 // rsync -avz --progress /Users/Dani/Code/Node/ricardogomez.com/app/build/* deployer@ricardogomez.com:/home/deployer/ricardogomez.com
 
-var Rsync = require('rsync');
 var path = require('path');
+var exec = require('child_process').exec;
 
-var source = __dirname + "../build/";
-var destination = '/home/deployer/ricardogomez.com';
-var host = "ricardogomez.com"
-var user = 'deployer'
+var source = path.join(__dirname, "../../site/build/");
+var destination = 'deployer@ricardogomez.com:/home/deployer/ricardogomez.com';
 
 console.log("Source: ", source);
 
-var rsync = Rsync.build({
-    'flags': 'avz progress',
-    'shell': 'ssh',
-    'source': path.join(__dirname, '../build/'),
-    'destination': 'deployer@ricardogomez.com:/home/deployer/ricardogomez.com'
-});
+var rsync = 'rsync -avz ' + source + '* ' + destination
 
-console.log("Execute");
-rsync.execute(function(error, code, cmd) {
-  console.log("Rsync done", cmd, code, error);
+console.log("Execute", rsync);
+
+var child = exec(rsync, function(error, stdout, stderr) {
+  console.log('stdout: ' + stdout);
+  console.log('stderr: ' + stderr);
+  if (error !== null) {
+    console.log('exec error: ' + error);
+  }
 });

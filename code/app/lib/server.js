@@ -19,7 +19,7 @@ function start(options) {
   var app = express();
   var view = exphbs.create({
     defaultLayout: 'app',
-    layoutsDir: './app/views/layouts',
+    layoutsDir: './code/app/views/layouts',
     // Specify helpers which are only registered on this instance.
     helpers: {
       foo: function () { return 'FOO!'; },
@@ -27,7 +27,7 @@ function start(options) {
     }
   });
   app.engine('handlebars', view.engine);
-  app.set('views', './app/views')
+  app.set('views', './code/app/views')
   app.set('view engine', 'handlebars');
 
   var readdir = require('recursive-readdir');
@@ -43,6 +43,10 @@ function start(options) {
     });
   });
 
+  app.get('/publicar', function (req, res) {
+    res.render('publicar');
+  });
+
   app.get('/build', function(req, res) {
     console.log(chalk.blue("Re-construyendo la web..."));
     metalsmith.build(function(err) {
@@ -51,11 +55,13 @@ function start(options) {
   });
 
   app.use(express.static(metalsmith.destination(), { etag: false }));
+  var assets = path.join(__dirname, '../assets')
+  app.use(express.static(assets));
 
   var server = app.listen(options.port, function () {
     var host = server.address().address
     var port = server.address().port
-    console.log('Servidor listo. Abre http://%s:%s', host, port)
+    console.log('Servidor listo. Abre http://localhost:%s', port)
   });
   return server;
 }

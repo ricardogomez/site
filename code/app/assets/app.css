@@ -1,0 +1,39 @@
+
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background: rgb(61, 79, 93);
+  color: #FFF;
+}
+
+.header {
+  margin: 50% 2em 0;
+  color: rgb(176, 202, 219);
+  font-weight: 300;
+}
+.header a { color: white; text-decoration: none; }
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-item a {
+  background: transparent;
+  border: 2px solid rgb(176, 202, 219);
+  color: #fff;
+  margin-top: 1em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 85%;
+}
+
+.content {
+  padding: 2em 3em 0;
+  margin-left: 25%;
+}

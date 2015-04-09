@@ -11,11 +11,14 @@ var site = path.join(__dirname, '../site');
 var metalsmith = Metalsmith(site);
 
 metalsmith.build(function(err) {
-  if (err) throw err;
+  if (err) {
+    console.log(err);
+    throw err;
+  }
   console.log(chalk.green("Web lista."));
 });
 
-if (!"server") {
+if ("server") {
   console.log(chalk.yellow("Iniciando servidor..."));
   var server = require('./lib/server.js')
   server.start({
