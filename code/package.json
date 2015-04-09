@@ -4,9 +4,6 @@
   "description": "Ricardo Gómez website",
   "repository": "https://github.com/ricardogomez/site",
   "main": "app/build.js",
-  "bin": {
-    "rgweb": "app/bin/rgweb"
-  },
   "scripts": {
     "test": "node_modules/jasmine-node/bin/jasmine-node app/test/*.spec.js",
     "build": "node app/build"
@@ -35,7 +32,8 @@
     "minimatch": "^2.0.4",
     "node-static": "^0.7.6",
     "recursive-readdir": "^1.2.1",
-    "rsync": "^0.4.0"
+    "rsync": "^0.4.0",
+    "simple-git": "^1.2.0"
   },
   "devDependencies": {
     "jasmine-node": "^1.14.5"

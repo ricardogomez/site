@@ -4,6 +4,7 @@ subtitulo: "Bios, y alguna entrevista y asuntillos más que hablan de mis manía
 ---
 {{ imágen biografia/img-2418.jpg posición: ancho }}
 
+
 Si quieres leer una biografía más clásica:
 
 [> Mi biografía](/biografia/biografia-1)

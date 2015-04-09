@@ -6,6 +6,8 @@ var exphbs  = require('express-handlebars');
 var chalk = require('chalk');
 var path = require('path');
 
+var src = path.join(__dirname, '../../..');
+var git = require('simple-git')(src);
 
 var defaults = {
   metalsmith: null,
@@ -31,13 +33,19 @@ function start(options) {
   app.set('view engine', 'handlebars');
 
   var readdir = require('recursive-readdir');
-  app.get('/editar', function (req, res) {
+  app.get('/editar', function(req, res) {
+    git.status(function(err, status) {
+      res.render('status', status);
+    });
+  });
+
+  app.get('/ficheros', function (req, res) {
     var src = path.join(metalsmith.source(), '../imagenes');
     var srcLen = src.length;
     readdir(src, function (err, arr) {
       var files = err ? [] : arr;
       files = files.map(function(file) {
-        return { path: file.slice(srcLen, -1), file: file }
+        return { path: file.substring(srcLen), file: file }
       });
       res.render('editar', { files: files});
     });
