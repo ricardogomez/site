@@ -20,8 +20,9 @@ var t = '<!DOCTYPE html>' +
 function plugin() {
   return function(files, metalsmith, done) {
     var file = files['redirects.txt'];
+    if (!file) return;
+
     var lines = file.contents.toString().split('\n');
-    console.log("REDIRECT", file, lines.length);
     lines.forEach(function(line) {
       var parts = line.replace(/\s/g, '').split(':');
       var original = parts[0].replace(/\"/g, '').substring(1);

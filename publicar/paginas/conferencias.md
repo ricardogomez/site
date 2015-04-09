@@ -3,9 +3,9 @@ titulo: "Conferencias (y alguna que otra entrevista)"
 subtitulo: ""
 ---
 {{ imágen conferencias/paisaje.jpg posición: ancho }}
-**Presentación en el
-Congreso Iberoamericano de las Lenguas en la Educación y en la Cultura. IV
-Congreso LEER.ES**
+
+### Presentación en el Congreso Iberoamericano de las Lenguas en la Educación y en la Cultura. IV Congreso LEER.ES
+
 
 {{ imágen conferencias/sept2012.jpg pos: izq }}
 
@@ -21,7 +21,7 @@ lectores](/conferencias/congresoaele)
 
 * * *
 
-**Charla en la Feria del Libro de Madrid: “¡Larga vida a los duendes!”**
+### Charla en la Feria del Libro de Madrid: “¡Larga vida a los duendes!”
 
 {{ imágen conferencias/mayo2012.jpg pos: izq }}
 
@@ -31,10 +31,9 @@ pareció que era una oportunidad para recordar sus figuras y para insistir en
 la responsabilidad de los adultos a la hora de preservar la capacidad de
 fantasía de los pequeños lectores.
 
-## [> ¡Larga vida a los duendes’](/conferencias/duendes)
+[> ¡Larga vida a los duendes’](/conferencias/duendes)
 
-**Conferencia en Canadá: “Gastronomía y Literatura. El cuento: salir de
-tapas”**
+### Conferencia en Canadá: “Gastronomía y Literatura. El cuento: salir de tapas”
 
  {{ imágen conferencias/mayo2012.jpg pos: izq }}
 
@@ -57,7 +56,7 @@ tapas’](/conferencias/gastronomia)
 
 * * *
 
-**“Entrevista en “Peonza”. nº 98. Octubre de 2011**
+### “Entrevista en “Peonza”. nº 98. Octubre de 2011
 
  {{ imágen conferencias/oct2011.jpg pos: izq }}
 
@@ -70,7 +69,7 @@ una selección bibliográfica._
 
 * * *
 
-**“Leer, sentir escribir…”: Unas reflexiones para el portal GRETEL**
+### “Leer, sentir escribir…”: Unas reflexiones para el portal GRETEL
 
  {{ imágen conferencias/jun2009.jpg pos: izq }}
 
@@ -85,7 +84,7 @@ magnífico dossier sobre mí y mi obra. ¡Todo un orgullo!_
 
 * * *
 
-**“Desnumeralizar las Matemáticas”: Conferencia en Santiago de Compostela**
+### “Desnumeralizar las Matemáticas”: Conferencia en Santiago de Compostela
 
  {{ imágen conferencias/mar2009.jpg pos: izq }}
 
@@ -101,7 +100,7 @@ los terrenos educativos._
 
 * * *
 
-**Feria del Libro del Aljarafe, Sevilla, con Carlo Frabetti**
+### Feria del Libro del Aljarafe, Sevilla, con Carlo Frabetti
 
  {{ imágen conferencias/dic2008.jpg pos: izq }}
 
@@ -119,7 +118,7 @@ reproduzco a continuación:_
 
 * * *
 
-**Viaje a Miami con Agustín Fernández Paz**
+### Viaje a Miami con Agustín Fernández Paz
 
  {{ imágen conferencias/dic2008.jpg pos: izq }}
 
@@ -136,7 +135,7 @@ reflexiones._
 
 * * *
 
-**Homenaje a DARWISH en la Casa Árabe de Madrid**
+### Homenaje a DARWISH en la Casa Árabe de Madrid
 
  {{ imágen conferencias/oct2008.jpg pos: izq }}
 
@@ -153,7 +152,7 @@ Darwish y fue un placer volver a hacerlo._
 
 * * *
 
-**VITORIA: Mi experiencia lectora / mis deseos como escritor**
+### VITORIA: Mi experiencia lectora / mis deseos como escritor
 
  {{ imágen conferencias/sept2008.jpg pos: izq }}
 
@@ -174,8 +173,7 @@ Vitoria](/conferencias/entrevista-vitoria)
 
 * * *
 
-**LITERATURA Y MATEMÁTICAS (Cuando dos y dos no son cuatro, sino una china
-gorda en el zapato)**
+### LITERATURA Y MATEMÁTICAS (Cuando dos y dos no son cuatro, sino una china gorda en el zapato)
 
  {{ imágen conferencias/sept2008.jpg pos: izq }}
 _Los días 2 y 3 de septiembre de 2008 participé en las Jornadas de
@@ -192,8 +190,7 @@ lectores._
 
 * * *
 
-**LITERATURA Y MATEMÁTICAS (Reivindicación de los aspectos más inútiles de
-las Matemáticas y aportaciones de la Literatura al cálculo infinitesimal)**
+### LITERATURA Y MATEMÁTICAS (Reivindicación de los aspectos más inútiles de las Matemáticas y aportaciones de la Literatura al cálculo infinitesimal)
 
  {{ imágen conferencias/mar2008.jpg pos: izq }}
 _El 1 de marzo de 2008 fui invitado por la **Editorial Alfaguara** y por la
@@ -207,7 +204,7 @@ lectura y el aprendizaje de las matemáticas, a todos los niveles._
 
 * * *
 
-**Sobre el Sáhara**
+### Sobre el Sáhara
 
  {{ imágen conferencias/dic2007.jpg pos: izq }}
 _El 5 de diciembre de 2007 fui invitado por la Universidad Autónoma de Madrid
@@ -222,7 +219,7 @@ Bachillerato…_
 
 * * *
 
-**Sobre los encuentros con autor**
+### Sobre los encuentros con autor
 
  {{ imágen conferencias/oct2007.jpg pos: izq }}
 _De vez en cuando, realizo “encuentros con autor” en colegios, institutos o
@@ -240,7 +237,7 @@ autor!](/conferencias/encuentros-edelvives-baeza)
 
 * * *
 
-**MEDELLÍN: “¡Miénteme!” (Una propuesta para la escritura en el aula)**
+### MEDELLÍN: “¡Miénteme!” (Una propuesta para la escritura en el aula)
 
  {{ imágen conferencias/oct2007.jpg pos: izq }}
 _En octubre de 2007 fui invitado a ir a Medellín a Bogotá, por la **Fundación
@@ -258,7 +255,7 @@ ficción.** Pero, además, no quiero dejar de hablar de Medellín…_
 
 * * *
 
-**¿Por qué se escribe?**
+### ¿Por qué se escribe?
 
  {{ imágen conferencias/mayo2007.jpg pos: izq }}
 _El 12 de mayo de 2007 fui invitado por SM a una mesa redonda con este
@@ -275,7 +272,7 @@ que se acercan a la escritura, son estas…_
 
 * * *
 
-**Sobre la “literatura comprometida”**
+### Sobre la “literatura comprometida”
 
  {{ imágen conferencias/abr2007.jpg pos: izq }}
 _El año 2007, la revista_ **Peonza** _elaboró un número monográfico dedicado
@@ -289,7 +286,7 @@ aparecido en Abril de 2007:_
 
 * * *
 
-**Sobre los premios literarios**
+### Sobre los premios literarios
 
  {{ imágen conferencias/jun2006.jpg pos: izq }}
 _En junio de 2006, tras recibir el premio El Barco de Vapor, las editoras de
@@ -305,7 +302,7 @@ o menor medida, todos caemos._
 
 * * *
 
-**Caminos hacia la lectura**
+### Caminos hacia la lectura
 
  {{ imágen conferencias/mayo2005.jpg pos: izq }}
 _El 21 de mayo de 2005, mis amigas Carmen Carramiñana y Merche Caballud me

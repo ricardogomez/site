@@ -3,5 +3,7 @@
 ricardogomez.com
 
 
+### Licenses
 
-License: Creative Commons 4.0 BY NC
+Code: MIT License
+Content: Creative Commons 4.0 BY NC
