@@ -6,9 +6,6 @@ var exphbs  = require('express-handlebars');
 var chalk = require('chalk');
 var path = require('path');
 
-var src = path.join(__dirname, '../../..');
-var git = require('simple-git')(src);
-
 var defaults = {
   metalsmith: null,
   // server port
@@ -32,13 +29,15 @@ function start(options) {
   app.set('views', './code/app/views')
   app.set('view engine', 'handlebars');
 
-  var readdir = require('recursive-readdir');
+  var repoPath = path.join(__dirname, '../../..');
+  var git = require('simple-git')(repoPath);
   app.get('/editar', function(req, res) {
     git.status(function(err, status) {
       res.render('status', status);
     });
   });
 
+  var readdir = require('recursive-readdir');
   app.get('/ficheros', function (req, res) {
     var src = path.join(metalsmith.source(), '../imagenes');
     var srcLen = src.length;
@@ -51,8 +50,20 @@ function start(options) {
     });
   });
 
-  app.get('/publicar', function (req, res) {
+  app.get('/publicar', function(req, res) {
     res.render('publicar');
+  });
+
+  var buildPath = path.join(__dirname, "../../site/build/");
+  var destination = 'deployer@ricardogomez.com:/home/deployer/ricardogomez.com';
+  var rsync = 'rsync -az ' + buildPath + '* ' + destination;
+  var exec = require('child_process').exec;
+  app.get('/deploy', function (req, res) {
+    console.log("Publicando a: ", destination);
+    exec(rsync, function(error, stdout, stderr) {
+      console.log("Publicado: ", stdout);
+      res.send(stdout);
+    });
   });
 
   app.get('/build', function(req, res) {
