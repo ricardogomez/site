@@ -1,7 +1,20 @@
-
 <h1>Publicar</h1>
+<p>
+  Has modificado:
+  {{#each modified}}
+    <li>{{.}}</li>
+  {{/each}}
+</p>
 
-<div id="publish-result">
-  <p>¿Estás seguro de que quieres publicar los cambios?</p>
-  <button id="btn-publish" class="button-warning button-xlarge pure-button">Si, publicar los cambios</button>
-</div>
+<p>
+  Has añadido:
+  {{#each not_added}}
+    <li>{{.}}</li>
+  {{/each}}
+</p>
+
+<p>Si publicas los cambios de tu ordenador se esparcirán por todo internet.</p>
+<p>
+  ¿Estás seguro?<br>
+  <a href="#" class="button button-primary">Si, Publicar</a>
+</p>

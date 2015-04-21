@@ -1,40 +1,30 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/pure-min.css">
-    <link rel="stylesheet" href="/grids-responsive-min.css">
-    <link rel="stylesheet" href="/app.css">
-    <title>ricardogomez.com</title>
+  <meta charset="utf-8">
+  <title>ricardogomez.com</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/normalize.css">
+  <link rel="stylesheet" href="/skeleton.css">
+  <link rel="stylesheet" href="/app.skeleton.css">
 </head>
 <body>
-  <div id="layout" class="pure-g">
-    <div class="sidebar pure-u-1 pure-u-md-1-4">
-        <div class="header">
-            <a href="/">
-              <h1 class="brand-title">ricardogomez.com</h1>
-            </a>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a class="pure-button" href="/">VER</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="pure-button" href="/publicar">publicar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="pure-button" href="/">AYUDA</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <div class="content pure-u-1 pure-u-md-3-4">
-      {{{body}}}
+  <div class="container">
+    <div class="row">
+      <div class="one-half column">
+        <h5>ricardogomez.com</h5>
+        <a href="/editar" class="button">Editar</a>
+        <a href="/" class="button">Ver</a>
+        <a href="/publicar" class="button">Publicar</a>
+        {{{ body }}}
+      </div>
     </div>
   </div>
-  <script src="/jquery.min.js"></script>
-  <script src="/app.js"></script>
 </body>
 </html>

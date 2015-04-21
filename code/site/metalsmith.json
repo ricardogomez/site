@@ -16,6 +16,9 @@
     "./plugins/view-helpers": {
 
     },
+    "./plugins/metalsmith-include": {
+      "*.md": "!!incluye "
+    },
     "metalsmith-permalinks": {
     },
     "metalsmith-partial": {

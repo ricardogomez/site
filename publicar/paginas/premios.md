@@ -291,4 +291,3 @@ _He dejado aparte otras menciones y designaciones a finalistas que en su
 momento supusieron pequeñas esperanzas y me afirmaron en mi trabajo. La
 conclusión de todo esto es que no hay sendas cortas… en ningún aspecto de la
 vida. A mí siempre me han gustado, la verdad, las carreras de fondo._
-
