@@ -46,6 +46,7 @@ function builder(dir) {
 
         metalsmith.use(mod(opts));
       } catch (e) {
+        console.log(e, e.stack);
         throw(e);
       }
     }

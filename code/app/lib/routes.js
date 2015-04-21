@@ -10,7 +10,7 @@ module.exports = function(app, metalsmith) {
   app.get('/instrucciones', render('instrucciones'));
   app.get('/publicar', state());
   app.get('/deploy', deploy());
-  app.get('/build', build(metalsmith));
+  app.get('/recrear', build(metalsmith));
   app.get('/editor', editor());
   app.get('/carpeta', folder());
   app.get('/ficheros', files());
@@ -62,10 +62,11 @@ function folder() {
 }
 
 function build(metalsmith) {
+  var chalk = require('chalk');
   return function(req, res) {
     console.log(chalk.blue("Re-construyendo la web..."));
     metalsmith.build(function(err) {
-      res.send(err ? "Error." : "Listo.");
+      res.redirect('/editar');
     });
   }
 }

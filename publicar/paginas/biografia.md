@@ -2,7 +2,6 @@
 titulo: "Biografía"
 subtitulo: "Bios, y alguna entrevista y asuntillos más que hablan de mis manías"
 ---
-!! incluye 'biografia/test'
 
 {{ imágen biografia/img-2418.jpg posición: ancho }}
 
