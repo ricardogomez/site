@@ -34,19 +34,6 @@ helpers.salto = function(cmd) {
   return h('div', {"class": "clearfix"})
 }
 
-helpers.incluye = function(cmd, files) {
-  var path = cmd.value().split('/');
-  var last = path.length - 1;
-  path[last] = '_' + path[last] + '.html';
-  var partial = path.join('/');
-
-  var file = files[partial];
-  var content = file ? file.contents.toString() :
-    "Fichero: " + partial + " no encontrado."
-
-  return content;
-}
-
 function plugin() {
   return function(files, metalsmith, done) {
     Object.keys(files).forEach(function(name) {

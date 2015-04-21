@@ -2,7 +2,7 @@
 titulo: "Encuentros con lectores"
 subtitulo: "Experiencias varias, lugares y personas que dejaron huella... (Ha habido muchos, pero comenzaré esta narración a partir de 2009.)"
 ---
- **24/11/2009. Badajoz. IES “Ciudad Jardín”**
+**24/11/2009. Badajoz. IES “Ciudad Jardín”**
 
 Ángel, el profesor, es un tipo inquieto. Lo conocí en Almendralejo, hace unos
 años. Trabaja con chicos y chicas heterogéneos; resulta evidente que a unos
@@ -146,7 +146,5 @@ Si quieres conocer más de la experiencia…
 
 [> Trabajo en el Colegio Asturias, con alumnos de 1º de
 Primaria](/encuentros/colegioasturias)
-
-* * *
 
 * * *

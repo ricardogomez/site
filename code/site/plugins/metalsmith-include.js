@@ -8,6 +8,7 @@ module.exports = function(options) {
     Object.keys(files).forEach(function(file) {
       var token = "!! incluye";
       if (minimatch(file, "**/*.md")) {
+        if (!files[file]) return; // file deleted
         var matches = 0;
         var contents = files[file].contents.toString();
         var pattern = new RegExp(token.replace(/\s+/, "\\s+") + "\\s+(.*)", "g");
@@ -16,7 +17,9 @@ module.exports = function(options) {
           var include = match.replace(/['"]+/g, '');
           var fragment = files[include];
           if (fragment) {
-            return fragment.contents.toString();
+            fragment = fragment.contents.toString();
+            delete files[include];
+            return fragment;
           } else {
             // read the file directly (when using metalsmith-watch)
             var path = metalsmith.path(metalsmith.source() + "/" + include);
