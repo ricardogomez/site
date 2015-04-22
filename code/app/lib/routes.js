@@ -5,10 +5,12 @@ var simpleGit = require('simple-git')
 
 var ROOT = path.join(__dirname, '../../..');
 
+var actions = {};
 module.exports = function(app, metalsmith) {
-  app.get('/editar', render('editar', { path: ROOT }));
+  app.get('/editar', render('editar', actions.editar));
   app.get('/instrucciones', render('instrucciones'));
-  app.get('/publicar', state());
+  app.get('/ver', render('ver', actions.documents));
+  app.get('/publicar', render('publicar', actions.gitStatus));
   app.get('/deploy', deploy());
   app.get('/recrear', build(metalsmith));
   app.get('/editor', editor());
@@ -16,19 +18,36 @@ module.exports = function(app, metalsmith) {
   app.get('/ficheros', files());
 }
 
-function render(template, ctx) {
+function render(template, action) {
+  action = action || function(done) { done(); };
   return function(req, res) {
-    res.render(template, ctx);
+    action(function(err, ctx) {
+      res.render(template, ctx);
+    });
   }
 }
 
-function state() {
+actions.editar = function(done) {
+  done(null, { path: ROOT} );
+}
+
+actions.documents = function(done) {
   var git = simpleGit(ROOT);
-  return function(req, res) {
-    git.status(function(err, status) {
-      res.render('publicar', status);
+  var path = "publicar/paginas";
+  git.status(function(err, status) {
+    var all = [].concat(status.modified).concat(status.not_added);
+    var docs = all.filter(function(file) {
+      return file.match(/publicar\/paginas/);
+    }).map(function(file) {
+      return file.slice(path.length, -3);
     });
-  }
+    done(null, {docs: docs});
+  });
+}
+
+actions.gitStatus = function(done) {
+  var git = simpleGit(ROOT);
+  git.status(done);
 }
 
 function deploy() {

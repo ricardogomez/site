@@ -8,15 +8,26 @@
 </p>
 
 <h4>Imágenes</h4>
+<p>Para insertar una imágen usa:
+<code>\{{ imágen mislibros/alfaguara/bruno.jpg posición: izq }}</code><br>
+El fichero debe estar en "publicar/imagenes/mislibros/alfaguara".
+La posición puede ser 'izq', 'der' o 'ancho'.
+</p>
 
 <h4>Libros</h4>
 <p>Para añadir un libro (p.ej: bruno):
   <li>Crea el fihcero "bruno.md" dentro de "publicar/paginas/mislibros/alfaguara"</li>
-  <li>Añade una imágene reducida de la portada dentro de
-    "publicar/imagenes/mislibros/alfaguara". El título de la imágene puede ser
-    cualquire (por ejemplo: 'bruno-portada-peq.jpg'). La altura máxima de esa
-    imágen reducida debe ser 170 píxels (con cualquier ancho).</li>
+  <li>Añade una imágen reducida de la portada dentro de
+    "publicar/imagenes/mislibros/alfaguara". El título de la imágen puede ser
+    cualquiera (por ejemplo: 'bruno-portada-peq.jpg'). La altura máxima de esa
+    imágen reducida debe ser 170 píxels (con cualquier ancho). De nuevo,
+    te recomiendo que uses "Exportar para web..." de Photoshop.</li>
   <li>Añade a "publicar/paginas/mislibros/alfaguara.md" la siguiente línea:
+    <code>
+      \{{ libro "Bruno y la casa del espejo"
+          página: alfaguara/bruno
+          imágen: alfaguara/bruno-thumb.jpg }}
+     </code>
   </li>
 </p>
 
