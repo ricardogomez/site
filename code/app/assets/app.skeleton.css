@@ -7,6 +7,17 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.navigation {
+  margin: 1em 0;
+}
+
+.navigation a {
+  font-size: 130%;
+  margin-right: 1em;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
 h2, h3, h4 {
   margin-top: 2em;
 }

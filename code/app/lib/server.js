@@ -41,7 +41,7 @@ function start(options) {
   var server = app.listen(options.port, function () {
     var host = server.address().address
     var port = server.address().port
-    console.log('Servidor listo. Abre http://localhost:%s', port)
+    console.log('Servidor listo. Abre http://localhost:%s/editar', port)
   });
   return server;
 }

@@ -2,6 +2,9 @@
 
 ricardogomez.com
 
+## Start dev server
+
+node code/app/start
 
 ### Licenses
 
