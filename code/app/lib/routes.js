@@ -55,7 +55,7 @@ function push() {
   return function (req, res) {
     var git = simpleGit(ROOT);
     var msg = today() + " Edición web."
-    git.add('./*').commit(msg).push('origin', 'master');
+    git.add('./*').commit(msg).push();
     res.redirect('/publicar');
   }
 }
