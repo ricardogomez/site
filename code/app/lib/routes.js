@@ -12,7 +12,7 @@ module.exports = function(app, metalsmith) {
   app.get('/ver', render('ver', actions.documents));
   app.get('/publicar', render('publicar', actions.gitStatus));
   app.get('/deploy', deploy());
-  app.get('/push', push());
+  app.get('/save', save());
   app.get('/recrear', build(metalsmith));
   app.get('/editor', editor());
   app.get('/carpeta', folder());
@@ -51,19 +51,20 @@ actions.gitStatus = function(done) {
   git.status(done);
 }
 
-function push() {
+function save() {
   return function (req, res) {
-    var git = simpleGit(ROOT);
-    var msg = today() + " Edición web."
-    git.add('./*').commit(msg).push();
+    push();
     res.redirect('/publicar');
   }
 }
 
-function today() {
+function push() {
   var now = new Date();
-  return "" + now.getHours() + ":" + now.getSeconds() +
+  var msg = "" + now.getHours() + ":" + now.getSeconds() +
     " " + now.getDate() + "/" + now.getMonth() + "/" + now.getFullYear();
+  msg = msg + " Edición web."
+  var git = simpleGit(ROOT);
+  git.add('./*').commit(msg).push();
 }
 
 function deploy() {
@@ -71,10 +72,9 @@ function deploy() {
   var destination = 'deployer@ricardogomez.com:/home/deployer/ricardogomez.com';
   var rsync = 'rsync -az ' + buildPath + '* ' + destination;
   return function (req, res) {
-    console.log("Publicando a: ", destination);
+    push();
     exec(rsync, function(error, stdout, stderr) {
-      console.log("Publicado: ", stdout);
-      res.send(stdout);
+      res.redirect('http://ricardogomez.com');
     });
   }
 }
