@@ -74,7 +74,7 @@ function deploy() {
   return function (req, res) {
     push();
     exec(rsync, function(error, stdout, stderr) {
-      res.redirect('http://ricardogomez.com');
+      res.redirect('/publicar');
     });
   }
 }

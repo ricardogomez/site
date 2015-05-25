@@ -1,9 +1,6 @@
 
 $(function() {
-  $("#btn-publish").on('click', function() {
-    $("#publish-result").html('<div class="loader">').prepend('Publicando...');
-    $.get('/deploy', function(result) {
-      $("#publish-result").html(result);
-    });
+  $("a.button").on('click', function(e) {
+    $(document.body).append('<div class="overlay"><div class="loader" /></div>');
   });
 });
