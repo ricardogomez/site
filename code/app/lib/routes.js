@@ -12,6 +12,7 @@ module.exports = function(app, metalsmith) {
   app.get('/ver', render('ver', actions.documents));
   app.get('/publicar', render('publicar', actions.gitStatus));
   app.get('/deploy', deploy());
+  app.get('/push', push());
   app.get('/recrear', build(metalsmith));
   app.get('/editor', editor());
   app.get('/carpeta', folder());
@@ -48,6 +49,21 @@ actions.documents = function(done) {
 actions.gitStatus = function(done) {
   var git = simpleGit(ROOT);
   git.status(done);
+}
+
+function push() {
+  return function (req, res) {
+    var git = simpleGit(ROOT);
+    var msg = today() + " Edición web."
+    git.add('./*').commit(msg).push('origin', 'master');
+    res.redirect('/publicar');
+  }
+}
+
+function today() {
+  var now = new Date();
+  return "" + now.getHours() + ":" + now.getSeconds() +
+    " " + now.getDate() + "/" + now.getMonth() + "/" + now.getFullYear();
 }
 
 function deploy() {
