@@ -2,14 +2,14 @@
 titulo: "Bienvenid@ al Sáhara"
 subtitulo: ""
 ---
-{{ imágen elsahara/sahara01.jpg posición: izq }}El Sáhara
+{{ imágen elsahara/sahara01.jpg posición: izq }}
 
-## Hace años, tuve la suerte de visitar el Sáhara y de conocer a hombres,
+** Hace años, tuve la suerte de visitar el Sáhara y de conocer a hombres,
 mujeres y niños que viven en un desierto terrible. Una inconclusa
 descolonización, la invasión de un país extranjero, la contumacia de nuestros
 gobernantes y la incapacidad de la ONU no ha resuelto después de 34 años un
-problema vergonzoso.
-##
+problema vergonzoso. **
+
 
 .
 

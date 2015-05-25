@@ -64,7 +64,7 @@ function push() {
     " " + now.getDate() + "/" + now.getMonth() + "/" + now.getFullYear();
   msg = msg + " Edición web."
   var git = simpleGit(ROOT);
-  git.add('./*').commit(msg).push();
+  git.add('./publicar/*').commit(msg).push();
 }
 
 function deploy() {
