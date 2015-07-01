@@ -10,7 +10,7 @@ defino como una persona, como un amigo de mis amigos, como lector, como
 escritor, como alguien a quien le gusta la fotografía, la música y otras
 muchas cosas.
 
-**P: ¿Cuántos libros has escrito? ¿Cuántos has publicado? ¿Cuándo publicaste
+**P: ¿Cuántos libros has escrito? ¿Y  cuántos has publicado? ¿Cuándo publicaste
 el primero? ¿Cuál era el primero?**
 
 R: Pues, a ver… Eeeehhhh, por orden… Habría que decir que por un lado están
