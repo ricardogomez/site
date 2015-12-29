@@ -1,40 +1,39 @@
-'use strict';
+'use strict'
 
-var templ = require('./templ');
-var fs = require('fs');
+var templ = require('./templ')
 
-module.exports = plugin;
+module.exports = plugin
 
 var t = '<!DOCTYPE html>' +
-'<html>' +
+  '<html>' +
   '<head>' +
-    '<meta charset="utf-8">' +
-    '<meta http-equiv="refresh" content="1;url={{destination}}">' +
-    '<link rel="canonical">' +
-    '<script>window.location.replace("{{destination}}");</script>' +
+  '<meta charset="utf-8">' +
+  '<meta http-equiv="refresh" content="1;url={{destination}}">' +
+  '<link rel="canonical">' +
+  '<script>window.location.replace("{{destination}}");</script>' +
   '</head>' +
   '<body>Esta página se movió <a href="{{destination}}">aquí.</a>' +
   '</body>' +
-'</html>';
+  '</html>'
 
-function plugin() {
-  return function(files, metalsmith, done) {
-    var file = files['redirects.txt'];
-    if (!file) return;
+function plugin () {
+  return function (files, metalsmith, done) {
+    var file = files['redirects.txt']
+    if (!file) return
 
-    var lines = file.contents.toString().split('\n');
-    lines.forEach(function(line) {
-      var parts = line.replace(/\s/g, '').split(':');
-      var original = parts[0].replace(/\"/g, '').substring(1);
+    var lines = file.contents.toString().split('\n')
+    lines.forEach(function (line) {
+      var parts = line.replace(/\s/g, '').split(':')
+      var original = parts[0].replace(/\"/g, '').substring(1)
       var source = original + '/index.html'
-      var dest = "/" + parts[1];
+      var dest = '/' + parts[1]
       if (original) {
-        var redirect = templ(t, function() { return dest; })
+        var redirect = templ(t, function () { return dest })
         files[source] = {
           contents: new Buffer(redirect)
         }
       }
-    });
-    done();
+    })
+    done()
   }
 }
