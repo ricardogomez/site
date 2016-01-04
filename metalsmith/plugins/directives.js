@@ -1,27 +1,40 @@
 var extname = require('path').extname
-var START = '{{'
-var CONTENT = '[^\\}]*'
-var END = '}}'
-var DIRECTIVE = new RegExp(START + '\\s*(' + CONTENT + ')\\s*' + END, 'gi')
 
-function directives (list) {
+/**
+ * the metalsmith plugin
+ */
+function directives (processors) {
   return function (files, metalsmith, done) {
     Object.keys(files).forEach(function (name) {
       if (!/\.html?/.test(extname(name))) return
-      var content = files[name].contents.toString()
-
-      data.contents = new Buffer(templ(content, function (token) {
-        var cmd = parse(token)
-        var helper = directives[cmd.method]
-        helper = helper || function () { return token }
-        return helper(cmd, files)
-      }))
+      var file = files[name]
+      var result = directives.process(file.contents.toString(), processors)
+      file.contents = new Buffer(result)
     })
     done()
   }
 }
 
-function isOption (token) { return /:$/.test(token) }
+var START = '{{'
+var CONTENT = '[^\\}]*'
+var END = '}}'
+var DIRECTIVE = new RegExp(START + '\\s*(' + CONTENT + ')\\s*' + END, 'gi')
+/*
+ * process a content with processors (see tests)
+ */
+directives.process = function (content, processors) {
+  if (content.indexOf(START) < 0) return content
+  content = content.replace(/&quot;/g, '"').replace(/\s+/g, ' ')
+  return content.replace(DIRECTIVE, function (tag, token) {
+    var directive = directives.parse(token)
+    var processor = processors[directive.name]
+    return processor ? processor(directive, directives.tag) : token
+  })
+}
+
+/**
+ * Parse a directive: {{ name "the value" opt1: "op 1" op2: "op 2" }}
+ */
 directives.parse = function (token) {
   var tokens = token.split('"')
   .map(function (x, i) {
@@ -47,23 +60,20 @@ directives.parse = function (token) {
 
   return directive
 }
-
+function isOption (token) { return /:$/.test(token) }
 var TILDES = {'a': 'á', 'e': 'é', 'i': 'í', 'o': 'ó', 'u': 'ú'}
 function cleanTildes (method) {
   return Object.keys(TILDES).reduce(function (m, key) {
-    m = m.replace(TILDES[key], key)
-    return m
+    return m.replace(TILDES[key], key)
   }, method.toLowerCase())
 }
 
-directives.process = function (content, processors) {
-  if (content.indexOf(START) < 0) return
-  content = content.replace(/&quot;/g, '"').replace(/\s+/g, '')
-  content.replace(DIRECTIVE, function (tag, token) {
-    var directive = directives.parse(token)
-    var processor = processors[directive.method]
-    return processor ? processor(directive) : token
-  })
+directives.tag = function (name, attributes, children) {
+  var atts = Object.keys(attributes || {}).reduce(function (s, name) {
+    return s + name + '="' + attributes[name] + '" '
+  }, ' ')
+  var inner = (children || []).join('')
+  return ('<' + name + atts + '>' + inner + '</' + name + '>').replace(' >', '>')
 }
 
 module.exports = directives
