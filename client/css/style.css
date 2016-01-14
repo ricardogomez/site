@@ -1,0 +1,40 @@
+
+li { margin: 0; list-style: none; }
+
+#app {
+  position: fixed;
+  left: 0; right: 0; top: 0; bottom: 0;
+}
+
+#sections {
+  position: fixed; left: 0; right: 0; top: 0;
+  height: 2em; background-color: white;
+}
+
+#pages {
+  position: fixed; left: 0; top: 2em; bottom: 0;
+  width: 16em;
+}
+
+#editor {
+  position: fixed; left: 16em; right: 12em; top: 2em; bottom: 0;
+  background-color: white;
+}
+
+#editor .header { position: absolute; left: 0; right: 0; top: 0; height: 2em; }
+#editor .header .title { font-size: 2em; }
+#editor .controls {
+  position: absolute; left: 0; right: 0; bottom: 0; height: 3em; }
+
+#editor textarea {
+  background-color: #efefef;
+  position: absolute;
+  left: 0; top: 3em; right: 0; bottom: 0;
+  font-size: 100%;
+  border: 0;
+}
+
+#images {
+  position: fixed; right: 0; top: 2em; bottom: 0;
+  width: 12em;
+}

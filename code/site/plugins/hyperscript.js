@@ -26,7 +26,7 @@ module.exports = function () {
 function attributes (object) {
   var atts = []
   Object.keys(object).forEach(function (key) {
-    atts.push(key + '="' + object[key] + '"')
+    atts.push(key + '="' + object[key] + '" ')
   })
   return ' ' + atts.join(' ')
 }

@@ -3,6 +3,7 @@ var Metalsmith = require('metalsmith')
 
 // plugins
 var markdown = require('metalsmith-markdown')
+var permalinks = require('metalsmith-permalinks')
 var redirects = require('.plugins/redirects')
 var includes = require('.plugins/includes')
 var directives = require('.plugins/directives')
@@ -31,17 +32,18 @@ function sections () {
 
 var metalsmith = Metalsmith(__dirname)
   .source('../publicar/paginas')
-  .destination('build')
+  .destination('../build')
   .metadata(META)
   .use(includes({ prefix: '!! incluye' }))
   .use(sections())
   .use(markdown)
-  .use(redirects({ file: 'redirects.txt' }))
   .use(directives(processors))
+  .use(permalinks)
   .use(concat({
     'stylesheets/portada.css': { 'base': './stylesheets', 'files': ['portada.css', 'sections.css'] },
     'stylesheets/all.css': { 'base': './stylesheets', 'files': ['reset.css', 'fonts.css', 'sections.css', 'page.css', 'article.css'] }
   }))
+  .use(redirects({ file: 'redirects.txt' }))
 
 metalsmith.build(function (err) {
   if (err) throw err

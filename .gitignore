@@ -1,6 +1,7 @@
-code/node_modules
+node_modules
 .DS_Store
 publicar/imagenes
 code/import/0000/**
 code/site/build/**
 npm-debug.log
+metalsmith/build/
