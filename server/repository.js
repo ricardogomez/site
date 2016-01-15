@@ -3,19 +3,27 @@ var path = require('path')
 
 module.exports = function (ROOT) {
   return {
-    files: createFilesObject(ROOT),
-    page: getPage(ROOT)
+    files: apply(ROOT, createFilesObject),
+    getPage: apply(ROOT, getPage),
+    updatePage: apply(ROOT, updatePage)
   }
 }
 
+function apply (root, fn) {
+  return function (a, b, c, d) { return fn(root, a, b, c, d) }
+}
+
+function updatePage (ROOT, name, content, done) {
+  const file = path.join(ROOT, 'paginas', name.replace('inicio/', ''))
+  fs.writeFile(file, content, 'utf-8', done)
+}
+
 function getPage (ROOT, name, done) {
-  if (arguments.length === 1) return function (n, cb) { return getPage(ROOT, n, cb) }
-  name = name.replace('inicio/', '')
-  fs.readFile(path.join(ROOT, 'paginas', name), done)
+  const file = path.join(ROOT, 'paginas', name.replace('inicio/', ''))
+  fs.readFile(file, done)
 }
 
 function createFilesObject (ROOT, done) {
-  if (arguments.length === 1) return function (cb) { return createFilesObject(ROOT, cb) }
   walk(ROOT, function (err, results) {
     if (err) done(err, null)
     var len = ROOT.length

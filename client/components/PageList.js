@@ -15,5 +15,5 @@ export default class PageList extends React.Component {
 PageList.propTypes = {
   pages: PropTypes.array,
   currentPage: PropTypes.string,
-  onClick: PropTypes.function
+  onClick: PropTypes.func
 }

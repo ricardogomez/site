@@ -1,24 +1,31 @@
-import STATE from './state'
 
-const reducers = {
-  showSection: (state, action) => {
-    return { ...state, currentSection: action.section }
-  },
-  filesFetched: (state, action) => {
-    const pages = action.payload
-    return { ...state, sections: Object.keys(pages), pages }
-  },
-  openPage: (state, action) => {
-    return { ...state, pageContent: null, currentPage: action.name }
-  },
-  receivePage: (state, action) => {
-    return { ...state, pageContent: action.page.content, currentPage: action.page.name }
-  }
-
+const STATE = {
+  sections: ['inicio'],
+  currentSection: 'inicio',
+  pages: { inicio: [] },
+  loading: false,
+  saving: false,
+  currentPage: '',
+  pageContent: ''
 }
 
-// Reducer
-export default function reducer (state = STATE, action) {
-  var reducer = reducers[action.type]
-  return reducer ? reducer(state, action) : state
+// Page Reducer
+export default function (state = STATE, action) {
+  const { page, pages } = action
+  switch (action.type) {
+    case 'showSection':
+      return { ...state, currentSection: action.section }
+    case 'filesFetched':
+      return { ...state, sections: Object.keys(pages), pages }
+    case 'requestPage':
+      return { ...state, pageContent: null, currentPage: action.name }
+    case 'receivePage':
+      return { ...state, pageContent: page.content, currentPage: page.name }
+    case 'savingPage':
+      return { ...state, saving: true }
+    case 'pageSaved':
+      return { ...state, saving: false, currentPage: page.name, pageContent: page.content }
+    default:
+      return state
+  }
 }

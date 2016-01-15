@@ -5,3 +5,4 @@ code/import/0000/**
 code/site/build/**
 npm-debug.log
 metalsmith/build/
+build/

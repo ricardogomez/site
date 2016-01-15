@@ -1,11 +1,24 @@
 
+function delay (fn, t) { setTimeout(fn, t || 500) }
+
 export default {
   getFiles: (cb) => {
-    loadJSON('v1/files', cb)
+    delay(() => loadJSON('v1/files', cb))
   },
   fetchPage: (name, cb) => {
-    loadJSON('v1/page/' + name, cb)
+    delay(() => loadJSON('v1/page/' + name, cb))
+  },
+  updatePage: (name, content, cb) => {
+    delay(() => { PUT('/v1/page', { name, content }, cb) })
   }
+}
+
+function PUT (url, object, cb) {
+  var xhr = new window.XMLHttpRequest()
+  xhr.open('PUT', url)
+  xhr.setRequestHeader('Content-Type', 'application/json')
+  xhr.onload = () => { if (xhr.status === 200) cb(JSON.parse(xhr.responseText)) }
+  xhr.send(JSON.stringify(object))
 }
 
 function loadJSON (path, cb) {

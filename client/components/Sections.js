@@ -1,14 +1,13 @@
 import React, { PropTypes } from 'react'
 
 export default class Sections extends React.Component {
+  section (name, current, onClick) {
+    if (name === current) return <span key={name}>{name}</span>
+    else return <a href='#' onClick={() => { onClick(name) }} key={name}>{name}</a>
+  }
   render () {
-    var onClick = this.props.onClick
-    var section = (name) => {
-      return name === this.props.current
-        ? <span key={name}>{name}</span>
-        : <a href='#' onClick={() => { onClick(name) }} key={name}>{name}</a>
-    }
-    return <div id='#sections'>{this.props.names.map(section)}</div>
+    const { names, current, onClick } = this.props
+    return <div id='sections'>{names.map((n) => this.section(n, current, onClick))}</div>
   }
 }
 
