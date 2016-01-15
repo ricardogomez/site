@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head lang="es">
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="published-date" value="{{ date }}">
+    <meta content="section" value="{{ section }}">
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>{{ titulo }} || "Ricardo Gómez"</title>
+    <link href="/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body class="">
+    <div id="page">
+      <div id="page_top"></div>
+
+      <div id="page_middle">
+        {{{ partial 'menu.html' }}}
+        <div id="content">
+          <div id="head">
+            <h1>{{ titulo }}</h1>
+            <h4>{{ subtitulo }}</h4>
+          </div>
+
+          {{#if imagen}}
+            <div id="mainImage">
+              <img src="/imagenes/{{ imagen }}" alt="Imágen de {{titulo}}">
+            </div>
+          {{/if}}
+          <article>{{{ contents }}}<article>
+        </div> <!-- content -->
+        <div class="spacer">&nbsp;</div>
+      </div>
+      <!-- page_middle -->
+
+      <div id="page_bottom"></div>
+    </div>
+  </body>
+</html>

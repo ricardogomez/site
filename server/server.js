@@ -35,7 +35,8 @@ app.get('/v1/page/*', function (req, res) {
 })
 
 app.put('/v1/page', function (req, res) {
-  const { name, content } = req.body
+  const name = req.body.name
+  const content = req.body.content
   repo.updatePage(name, content, function (err) {
     if (err) res.status(500).send("Can't update page.")
     else sendJSON(res, { name, content })

@@ -1,6 +1,6 @@
 ---
 titulo: "Encuentros con lectores"
-subtitulo: "Experiencias varias, lugares y personas que dejaron huella... (Ha habido muchos, pero comenzaré esta narración a partir de 2009.)"
+subtitulo: "Experiencias varias, lugares y personas que dejaron huella... (Ha habido muchos, pero comenzaré esta narración a partir de 2009.)"
 ---
 **24/11/2009. Badajoz. IES “Ciudad Jardín”**
 
