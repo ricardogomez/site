@@ -2,9 +2,24 @@
 
 ricardogomez.com
 
-## Start dev server
+## Server
 
-node code/app/start
+```
+cd server/
+npm start
+```
+
+Two modules: server (API) | metalsmith (build site)
+
+## Client
+
+Start browserify and watchify:
+
+```
+cd client/
+npm start
+```
+
 
 ### Licenses
 

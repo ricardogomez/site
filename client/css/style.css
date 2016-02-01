@@ -13,8 +13,9 @@ li { margin: 0; list-style: none; }
 }
 #sections a, #sections span { padding: 0 0.5em; }
 
-#pages {
+#PageList {
   position: fixed; left: 0.5em; top: 5em; bottom: 0;
+  overflow: scroll; font-size: 0.8em;
   width: 16em;
 }
 

@@ -36,10 +36,10 @@ function sections () {
 /**
  * Create a metalsmith instance ready to build
  */
-module.exports = function (src, dest) {
+module.exports = function () {
   return Metalsmith(__dirname)
-  .source(src)
-  .destination(dest)
+  .source('../../publicar/paginas')
+  .destination('../../build')
   .metadata(META)
   .use(includes({ prefix: '!! incluye' }))
   .use(sections())

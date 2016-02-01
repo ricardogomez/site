@@ -1,6 +1,5 @@
 
-var Builder = require('.')
-var builder = Builder('../../publicar/paginas', '../../build')
+var builder = require('.')()
 
 console.log('Building:', builder.source())
 builder.build(function (err) {

@@ -1,5 +1,6 @@
 var fs = require('fs')
 var path = require('path')
+var builder = require('./metalsmith')
 
 module.exports = function (ROOT) {
   return {
@@ -15,7 +16,10 @@ function apply (root, fn) {
 
 function updatePage (ROOT, name, content, done) {
   const file = path.join(ROOT, 'paginas', name.replace('inicio/', ''))
-  fs.writeFile(file, content, 'utf-8', done)
+  fs.writeFile(file, content, 'utf-8', function (err) {
+    if (err) done(err)
+    builder.build(done)
+  })
 }
 
 function getPage (ROOT, name, done) {
