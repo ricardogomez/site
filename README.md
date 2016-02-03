@@ -20,6 +20,12 @@ cd client/
 npm start
 ```
 
+## Deploy
+
+```
+pm2 deploy ecosystem.json production
+```
+
 
 ### Licenses
 

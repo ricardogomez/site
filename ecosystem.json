@@ -1,0 +1,23 @@
+{
+  "apps": [
+    {
+      "name" : "rg-server",
+      "script" : "server/server.js",
+      "env" : {
+      },
+      "env_production" : {
+        "NODE_ENV": "production"
+      }
+    },
+  ],
+  "deploy" : {
+    "production" : {
+      "user" : "deployer",
+      "host" : "128.199.42.67",
+      "ref" : "origin/master",
+      "repo" : "https://github.com/ricardogomez/site.git",
+      "path" : "~/ricardogomez.com",
+      "post-deploy" : "npm --prefix ./server install ./server; pm2 startOrRestart ecosystem.json --env production"
+    }
+  }
+}
